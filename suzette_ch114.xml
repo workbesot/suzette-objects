@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/BucknellDSC/suzette/master/CSS/suzette_cwrc.css"?>
 <?xml-model href="https://raw.githubusercontent.com/BucknellDSC/suzette/refs/heads/master/out/suzette.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -71,16 +71,6 @@
             </biblStruct>
          </sourceDesc>
       </fileDesc>
-      <xenoData><rdf:RDF xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-            xmlns:as="http://www.w3.org/ns/activitystreams#"
-            xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#"
-            xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/"
-            xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#"
-            xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/"
-            xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#"
-            xmlns:bf="http://www.openlinksw.com/schemas/bif#"
-            xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#"
-            xmlns:org="http://www.w3.org/ns/org#"/></xenoData>
       <profileDesc>
          <langUsage>
             <language ident="fr">French</language>
@@ -95,9 +85,9 @@
                facs="https://raw.githubusercontent.com/BucknellDSC/suzette/master/images/page_images/Suzette_400.jpg"/>
             <head type="chapter">114. — Un cadeau. </head>
             <div type="récit">
-               <p>Le surlendemain, à la fin du jour, M.
-                     Dumay, rentré des champs, les pieds dans de bons et spacieux sabots
-                  qu'il appelait ses pantoufles, regardait paternellement Suzette.</p>
+               <p>Le surlendemain, à la fin du jour, M. Dumay, rentré des champs, les pieds dans de
+                  bons et spacieux sabots qu'il appelait ses pantoufles, regardait paternellement
+                  Suzette.</p>
                <p>En robe claire et tablier à carreaux, elle vaquait au <pb n="401"
                      facs="https://raw.githubusercontent.com/BucknellDSC/suzette/master/images/page_images/Suzette_401.jpg"
                   /> ménage, qui, en ces quarante-huit heures, avait repris toute sa gentillesse
@@ -142,10 +132,9 @@
                </figure>
                <p>— Bon ! dit-elle, sans même pencher la tête pour regarder au dehors, voilà nos
                   écoliers ! et probablement avec les dents longues, comme à l'habitude.</p>
-               <p>Mais ce fut Sylvain qui entra,
-                  guêtré de toile bleue, tout embourbé de l'argile des labours, par lesquels il
-                  avait pris pour abréger les deux lieues de chemin qui séparaient la ferme de son
-                  patron de celle des <persName>Dumay</persName>.</p>
+               <p>Mais ce fut Sylvain qui entra, guêtré de toile bleue, tout embourbé de l'argile
+                  des labours, par lesquels il avait pris pour abréger les deux lieues de chemin qui
+                  séparaient la ferme de son patron de celle des <persName>Dumay</persName>.</p>
                <p>— Bonsoir, Monsieur ! bonsoir, Mademoiselle !</p>
                <p>Sa voix tremblait d'une joie contenue.</p>
                <p>— Qu'y a-t-il, mon ami ? demanda le père.</p>
@@ -163,9 +152,8 @@
                   alla aussitôt la mettre en place dans le jardin.</p>
                <pb n="402"
                   facs="https://raw.githubusercontent.com/BucknellDSC/suzette/master/images/page_images/Suzette_402.jpg"/>
-               <p>— Ah ! monsieur Sylvain, que je
-                  vous remercie ! dit Suzette.
-                  Voilà la seule chose qui pût me faire plaisir ; vous l'avez deviné.</p>
+               <p>— Ah ! monsieur Sylvain, que je vous remercie ! dit Suzette. Voilà la seule chose
+                  qui pût me faire plaisir ; vous l'avez deviné.</p>
                <p>Elle lui tendit la main. Il semblait encore plus heureux qu'elle et montrait la
                   vérité du vieux dicton* : « Plus doux est donner que recevoir. » On le retint à
                   souper. Après le <objectName key="repas">repas</objectName> d'<objectName
@@ -184,21 +172,18 @@
             <div type="questionnaire">
                <head>Questionnaire.</head>
                <list>
-                  <item>— Comment était M. Dumay le
-                     surlendemain et que faisait-il ?</item>
-                  <item>— A quoi s'était occupée Suzette depuis quarante-huit heures et quel travail la tenait
-                     auprès de la fenêtre ?</item>
+                  <item>— Comment était M. Dumay le surlendemain et que faisait-il ?</item>
+                  <item>— A quoi s'était occupée Suzette depuis quarante-huit heures et quel travail
+                     la tenait auprès de la fenêtre ?</item>
                   <item>— Que dit-elle quand on frappa à la porte ?</item>
                   <item>— Qui arrivait ?</item>
-                  <item>— Comment était Sylvain
-                     ?</item>
-                  <item>— Que dit-il à M. Dumay,
-                     puis à Suzette ?</item>
+                  <item>— Comment était Sylvain ?</item>
+                  <item>— Que dit-il à M. Dumay, puis à Suzette ?</item>
                   <item>— Que vit-on dans la cour ? Comment fut-il remercié ?</item>
                   <item>— Que lui offrit-on ?</item>
                   <item>— Quel changement s'était fait en Sylvain ?</item>
-                  <item>— Quelle réflexion fit M.
-                        Dumay au sujet de Syivain quand ce dernier fut parti ?</item>
+                  <item>— Quelle réflexion fit M. Dumay au sujet de Syivain quand ce dernier fut
+                     parti ?</item>
                </list>
             </div>
             <div type="exercices">

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/BucknellDSC/suzette/master/CSS/suzette_cwrc.css"?>
 <?xml-model href="https://raw.githubusercontent.com/BucknellDSC/suzette/refs/heads/master/out/suzette.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
 	<teiHeader>
 		<fileDesc>
 			<titleStmt>
@@ -71,530 +71,6 @@
 				</biblStruct>
 			</sourceDesc>
 		</fileDesc>
-		<xenoData><rdf:RDF xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-				xmlns:as="http://www.w3.org/ns/activitystreams#"
-				xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#"
-				xmlns:dc="http://purl.org/dc/elements/1.1/"
-				xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/"
-				xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#"
-				xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
-				xmlns:fabio="https://purl.org/spar/fabio#"
-				xmlns:bf="http://www.openlinksw.com/schemas/bif#"
-				xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#"
-				xmlns:org="http://www.w3.org/ns/org#">
-				<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/"> { "@context": {
-					"dcterms:created": { "@type": "xsd:dateTime", "@id": "dcterms:created" },
-					"dcterms:issued": { "@type": "xsd:dateTime", "@id": "dcterms:issued" },
-					"oa:motivatedBy": { "@type": "oa:Motivation" }, "@language": "en", "rdf":
-					"http://www.w3.org/1999/02/22-rdf-syntax-ns#", "rdfs":
-					"http://www.w3.org/2000/01/rdf-schema#", "as":
-					"http://www.w3.org/ns/activitystreams#", "cwrc":
-					"http://sparql.cwrc.ca/ontologies/cwrc#", "dc":
-					"http://purl.org/dc/elements/1.1/", "dcterms": "http://purl.org/dc/terms/",
-					"foaf": "http://xmlns.com/foaf/0.1/", "geo":
-					"http://www.geonames.org/ontology#", "oa": "http://www.w3.org/ns/oa#", "schema":
-					"http://schema.org/", "xsd": "http://www.w3.org/2001/XMLSchema#", "fabio":
-					"https://purl.org/spar/fabio#", "bf": "http://www.openlinksw.com/schemas/bif#",
-					"cito": "https://sparontologies.github.io/cito/current/cito.html#", "org":
-					"http://www.w3.org/ns/org#" }, "id":
-					"https://leaf.bucknell.edu/sites/default/files/2023-07/suzette_ch009.xml?person_annotation_20230706163258617",
-					"type": "oa:Annotation", "dcterms:created": "2023-07-06T20:32:58.617Z",
-					"dcterms:creator": { "@id": "5", "@type": [ "cwrc:NaturalPerson",
-					"schema:Person" ], "cwrc:hasName": "John Westbrook" }, "oa:motivatedBy":
-					"oa:identifying", "oa:hasTarget": { "@id":
-					"https://leaf.bucknell.edu/sites/default/files/2023-07/suzette_ch009.xml?person_annotation_20230706163258617#Target",
-					"@type": "oa:SpecificResource", "oa:hasSource": { "@id":
-					"https://leaf.bucknell.edu/sites/default/files/2023-07/suzette_ch009.xml",
-					"@type": "dctypes:Text", "dc:format": "text/xml" }, "oa:renderedVia": { "@id":
-					"https://leaf.bucknell.edu", "@type": "as:Application", "rdfs:label":
-					"LEAF-Writer", "schema:softwareVersion": "3.2.2" }, "oa:hasSelector": { "@id":
-					"https://leaf.bucknell.edu/sites/default/files/2023-07/suzette_ch009.xml?person_annotation_20230706163258617#Selector",
-					"@type": "oa:XPathSelector", "rdf:value":
-					"TEI/text/body/div/div/p[15]/persName[2]" } }, "oa:hasBody": { "@type":
-					"cwrc:NaturalPerson", "@id": "https://www.wikidata.org/wiki/Q55125147",
-					"dc:format": "text/plain" }, "as:generator": { "@id":
-					"https://leaf.bucknell.edu", "@type": "as:Application", "rdfs:label":
-					"LEAF-Writer", "schema:url": "https://leaf-writer.lincsproject.ca/",
-					"schema:softwareVersion": "3.2.2" } } </rdf:Description>
-				<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/"> { "@context": {
-					"dcterms:created": { "@type": "xsd:dateTime", "@id": "dcterms:created" },
-					"dcterms:issued": { "@type": "xsd:dateTime", "@id": "dcterms:issued" },
-					"oa:motivatedBy": { "@type": "oa:Motivation" }, "@language": "en", "rdf":
-					"http://www.w3.org/1999/02/22-rdf-syntax-ns#", "rdfs":
-					"http://www.w3.org/2000/01/rdf-schema#", "as":
-					"http://www.w3.org/ns/activitystreams#", "cwrc":
-					"http://sparql.cwrc.ca/ontologies/cwrc#", "dc":
-					"http://purl.org/dc/elements/1.1/", "dcterms": "http://purl.org/dc/terms/",
-					"foaf": "http://xmlns.com/foaf/0.1/", "geo":
-					"http://www.geonames.org/ontology#", "oa": "http://www.w3.org/ns/oa#", "schema":
-					"http://schema.org/", "xsd": "http://www.w3.org/2001/XMLSchema#", "fabio":
-					"https://purl.org/spar/fabio#", "bf": "http://www.openlinksw.com/schemas/bif#",
-					"cito": "https://sparontologies.github.io/cito/current/cito.html#", "org":
-					"http://www.w3.org/ns/org#" }, "id":
-					"https://leaf.bucknell.edu/sites/default/files/2023-07/suzette_ch009.xml?person_annotation_20230706163258618",
-					"type": "oa:Annotation", "dcterms:created": "2023-07-06T20:32:58.618Z",
-					"dcterms:creator": { "@id": "5", "@type": [ "cwrc:NaturalPerson",
-					"schema:Person" ], "cwrc:hasName": "John Westbrook" }, "oa:motivatedBy":
-					"oa:identifying", "oa:hasTarget": { "@id":
-					"https://leaf.bucknell.edu/sites/default/files/2023-07/suzette_ch009.xml?person_annotation_20230706163258618#Target",
-					"@type": "oa:SpecificResource", "oa:hasSource": { "@id":
-					"https://leaf.bucknell.edu/sites/default/files/2023-07/suzette_ch009.xml",
-					"@type": "dctypes:Text", "dc:format": "text/xml" }, "oa:renderedVia": { "@id":
-					"https://leaf.bucknell.edu", "@type": "as:Application", "rdfs:label":
-					"LEAF-Writer", "schema:softwareVersion": "3.2.2" }, "oa:hasSelector": { "@id":
-					"https://leaf.bucknell.edu/sites/default/files/2023-07/suzette_ch009.xml?person_annotation_20230706163258618#Selector",
-					"@type": "oa:XPathSelector", "rdf:value":
-					"TEI/text/body/div/div[3]/div[2]/div[2]/p[2]/persName" } }, "oa:hasBody": {
-					"@type": "cwrc:NaturalPerson", "@id": "https://www.wikidata.org/wiki/Q1401",
-					"dc:format": "text/plain" }, "as:generator": { "@id":
-					"https://leaf.bucknell.edu", "@type": "as:Application", "rdfs:label":
-					"LEAF-Writer", "schema:url": "https://leaf-writer.lincsproject.ca/",
-					"schema:softwareVersion": "3.2.2" } } </rdf:Description>
-				<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/"> { "@context": {
-					"dcterms:created": { "@type": "xsd:dateTime", "@id": "dcterms:created" },
-					"dcterms:issued": { "@type": "xsd:dateTime", "@id": "dcterms:issued" },
-					"oa:motivatedBy": { "@type": "oa:Motivation" }, "@language": "en", "rdf":
-					"http://www.w3.org/1999/02/22-rdf-syntax-ns#", "rdfs":
-					"http://www.w3.org/2000/01/rdf-schema#", "as":
-					"http://www.w3.org/ns/activitystreams#", "cwrc":
-					"http://sparql.cwrc.ca/ontologies/cwrc#", "dc":
-					"http://purl.org/dc/elements/1.1/", "dcterms": "http://purl.org/dc/terms/",
-					"foaf": "http://xmlns.com/foaf/0.1/", "geo":
-					"http://www.geonames.org/ontology#", "oa": "http://www.w3.org/ns/oa#", "schema":
-					"http://schema.org/", "xsd": "http://www.w3.org/2001/XMLSchema#", "fabio":
-					"https://purl.org/spar/fabio#", "bf": "http://www.openlinksw.com/schemas/bif#",
-					"cito": "https://sparontologies.github.io/cito/current/cito.html#", "org":
-					"http://www.w3.org/ns/org#" }, "id":
-					"https://leaf.bucknell.edu/sites/default/files/2023-07/suzette_ch009.xml?person_annotation_20240228144230626",
-					"type": "oa:Annotation", "dcterms:created": "2024-02-28T19:42:30.626Z",
-					"dcterms:creator": { "@id": "5", "@type": [ "cwrc:NaturalPerson",
-					"schema:Person" ], "cwrc:hasName": "John Westbrook" }, "oa:motivatedBy":
-					"oa:identifying", "oa:hasTarget": { "@id":
-					"https://leaf.bucknell.edu/sites/default/files/2023-07/suzette_ch009.xml?person_annotation_20240228144230626#Target",
-					"@type": "oa:SpecificResource", "oa:hasSource": { "@id":
-					"https://leaf.bucknell.edu/sites/default/files/2023-07/suzette_ch009.xml",
-					"@type": "dctypes:Text", "dc:format": "text/xml" }, "oa:renderedVia": { "@id":
-					"https://leaf.bucknell.edu", "@type": "as:Application", "rdfs:label":
-					"LEAF-Writer", "schema:softwareVersion": "3.4.0" }, "oa:hasSelector": { "@id":
-					"https://leaf.bucknell.edu/sites/default/files/2023-07/suzette_ch009.xml?person_annotation_20240228144230626#Selector",
-					"@type": "oa:XPathSelector", "rdf:value":
-					"TEI/text/body/div/div[3]/div[3]/div[2]/p[3]/persName[2]" } }, "oa:hasBody": {
-					"@type": "cwrc:NaturalPerson", "@id": "https://www.wikidata.org/wiki/Q64390",
-					"dc:format": "text/plain" }, "as:generator": { "@id":
-					"https://leaf.bucknell.edu", "@type": "as:Application", "rdfs:label":
-					"LEAF-Writer", "schema:url": "https://leaf-writer.lincsproject.ca/",
-					"schema:softwareVersion": "3.4.0" } } </rdf:Description>
-				<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/"> { "@context": {
-					"dcterms:created": { "@type": "xsd:dateTime", "@id": "dcterms:created" },
-					"dcterms:issued": { "@type": "xsd:dateTime", "@id": "dcterms:issued" },
-					"oa:motivatedBy": { "@type": "oa:Motivation" }, "@language": "en", "rdf":
-					"http://www.w3.org/1999/02/22-rdf-syntax-ns#", "rdfs":
-					"http://www.w3.org/2000/01/rdf-schema#", "as":
-					"http://www.w3.org/ns/activitystreams#", "cwrc":
-					"http://sparql.cwrc.ca/ontologies/cwrc#", "dc":
-					"http://purl.org/dc/elements/1.1/", "dcterms": "http://purl.org/dc/terms/",
-					"foaf": "http://xmlns.com/foaf/0.1/", "geo":
-					"http://www.geonames.org/ontology#", "oa": "http://www.w3.org/ns/oa#", "schema":
-					"http://schema.org/", "xsd": "http://www.w3.org/2001/XMLSchema#", "fabio":
-					"https://purl.org/spar/fabio#", "bf": "http://www.openlinksw.com/schemas/bif#",
-					"cito": "https://sparontologies.github.io/cito/current/cito.html#", "org":
-					"http://www.w3.org/ns/org#" }, "id":
-					"https://leaf.bucknell.edu/sites/default/files/2023-07/suzette_ch009.xml?person_annotation_20240228144449343",
-					"type": "oa:Annotation", "dcterms:created": "2024-02-28T19:44:49.343Z",
-					"dcterms:creator": { "@id": "5", "@type": [ "cwrc:NaturalPerson",
-					"schema:Person" ], "cwrc:hasName": "John Westbrook" }, "oa:motivatedBy":
-					"oa:identifying", "oa:hasTarget": { "@id":
-					"https://leaf.bucknell.edu/sites/default/files/2023-07/suzette_ch009.xml?person_annotation_20240228144449343#Target",
-					"@type": "oa:SpecificResource", "oa:hasSource": { "@id":
-					"https://leaf.bucknell.edu/sites/default/files/2023-07/suzette_ch009.xml",
-					"@type": "dctypes:Text", "dc:format": "text/xml" }, "oa:renderedVia": { "@id":
-					"https://leaf.bucknell.edu", "@type": "as:Application", "rdfs:label":
-					"LEAF-Writer", "schema:softwareVersion": "3.4.0" }, "oa:hasSelector": { "@id":
-					"https://leaf.bucknell.edu/sites/default/files/2023-07/suzette_ch009.xml?person_annotation_20240228144449343#Selector",
-					"@type": "oa:XPathSelector", "rdf:value":
-					"TEI/text/body/div/div[3]/div[3]/div[2]/p[3]/persName[3]" } }, "oa:hasBody": {
-					"@type": "cwrc:NaturalPerson", "@id": "https://www.wikidata.org/wiki/Q64390",
-					"dc:format": "text/plain" }, "as:generator": { "@id":
-					"https://leaf.bucknell.edu", "@type": "as:Application", "rdfs:label":
-					"LEAF-Writer", "schema:url": "https://leaf-writer.lincsproject.ca/",
-					"schema:softwareVersion": "3.4.0" } } </rdf:Description>
-				<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/"> { "@context": {
-					"dcterms:created": { "@type": "xsd:dateTime", "@id": "dcterms:created" },
-					"dcterms:issued": { "@type": "xsd:dateTime", "@id": "dcterms:issued" },
-					"oa:motivatedBy": { "@type": "oa:Motivation" }, "@language": "en", "rdf":
-					"http://www.w3.org/1999/02/22-rdf-syntax-ns#", "rdfs":
-					"http://www.w3.org/2000/01/rdf-schema#", "as":
-					"http://www.w3.org/ns/activitystreams#", "cwrc":
-					"http://sparql.cwrc.ca/ontologies/cwrc#", "dc":
-					"http://purl.org/dc/elements/1.1/", "dcterms": "http://purl.org/dc/terms/",
-					"foaf": "http://xmlns.com/foaf/0.1/", "geo":
-					"http://www.geonames.org/ontology#", "oa": "http://www.w3.org/ns/oa#", "schema":
-					"http://schema.org/", "xsd": "http://www.w3.org/2001/XMLSchema#", "fabio":
-					"https://purl.org/spar/fabio#", "bf": "http://www.openlinksw.com/schemas/bif#",
-					"cito": "https://sparontologies.github.io/cito/current/cito.html#", "org":
-					"http://www.w3.org/ns/org#" }, "id":
-					"https://leaf.bucknell.edu/sites/default/files/2023-07/suzette_ch009.xml?person_annotation_20240228144505283",
-					"type": "oa:Annotation", "dcterms:created": "2024-02-28T19:45:05.283Z",
-					"dcterms:creator": { "@id": "5", "@type": [ "cwrc:NaturalPerson",
-					"schema:Person" ], "cwrc:hasName": "John Westbrook" }, "oa:motivatedBy":
-					"oa:identifying", "oa:hasTarget": { "@id":
-					"https://leaf.bucknell.edu/sites/default/files/2023-07/suzette_ch009.xml?person_annotation_20240228144505283#Target",
-					"@type": "oa:SpecificResource", "oa:hasSource": { "@id":
-					"https://leaf.bucknell.edu/sites/default/files/2023-07/suzette_ch009.xml",
-					"@type": "dctypes:Text", "dc:format": "text/xml" }, "oa:renderedVia": { "@id":
-					"https://leaf.bucknell.edu", "@type": "as:Application", "rdfs:label":
-					"LEAF-Writer", "schema:softwareVersion": "3.4.0" }, "oa:hasSelector": { "@id":
-					"https://leaf.bucknell.edu/sites/default/files/2023-07/suzette_ch009.xml?person_annotation_20240228144505283#Selector",
-					"@type": "oa:XPathSelector", "rdf:value":
-					"TEI/text/body/div/div[3]/div[3]/div[2]/p[3]/persName[4]" } }, "oa:hasBody": {
-					"@type": "cwrc:NaturalPerson", "@id": "https://www.wikidata.org/wiki/Q8958",
-					"dc:format": "text/plain" }, "as:generator": { "@id":
-					"https://leaf.bucknell.edu", "@type": "as:Application", "rdfs:label":
-					"LEAF-Writer", "schema:url": "https://leaf-writer.lincsproject.ca/",
-					"schema:softwareVersion": "3.4.0" } } </rdf:Description>
-				<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/"> { "@context": {
-					"dcterms:created": { "@type": "xsd:dateTime", "@id": "dcterms:created" },
-					"dcterms:issued": { "@type": "xsd:dateTime", "@id": "dcterms:issued" },
-					"oa:motivatedBy": { "@type": "oa:Motivation" }, "@language": "en", "rdf":
-					"http://www.w3.org/1999/02/22-rdf-syntax-ns#", "rdfs":
-					"http://www.w3.org/2000/01/rdf-schema#", "as":
-					"http://www.w3.org/ns/activitystreams#", "cwrc":
-					"http://sparql.cwrc.ca/ontologies/cwrc#", "dc":
-					"http://purl.org/dc/elements/1.1/", "dcterms": "http://purl.org/dc/terms/",
-					"foaf": "http://xmlns.com/foaf/0.1/", "geo":
-					"http://www.geonames.org/ontology#", "oa": "http://www.w3.org/ns/oa#", "schema":
-					"http://schema.org/", "xsd": "http://www.w3.org/2001/XMLSchema#", "fabio":
-					"https://purl.org/spar/fabio#", "bf": "http://www.openlinksw.com/schemas/bif#",
-					"cito": "https://sparontologies.github.io/cito/current/cito.html#", "org":
-					"http://www.w3.org/ns/org#" }, "id":
-					"https://leaf.bucknell.edu/sites/default/files/2023-07/suzette_ch009.xml?person_annotation_20240228144602716",
-					"type": "oa:Annotation", "dcterms:created": "2024-02-28T19:46:02.716Z",
-					"dcterms:creator": { "@id": "5", "@type": [ "cwrc:NaturalPerson",
-					"schema:Person" ], "cwrc:hasName": "John Westbrook" }, "oa:motivatedBy":
-					"oa:identifying", "oa:hasTarget": { "@id":
-					"https://leaf.bucknell.edu/sites/default/files/2023-07/suzette_ch009.xml?person_annotation_20240228144602716#Target",
-					"@type": "oa:SpecificResource", "oa:hasSource": { "@id":
-					"https://leaf.bucknell.edu/sites/default/files/2023-07/suzette_ch009.xml",
-					"@type": "dctypes:Text", "dc:format": "text/xml" }, "oa:renderedVia": { "@id":
-					"https://leaf.bucknell.edu", "@type": "as:Application", "rdfs:label":
-					"LEAF-Writer", "schema:softwareVersion": "3.4.0" }, "oa:hasSelector": { "@id":
-					"https://leaf.bucknell.edu/sites/default/files/2023-07/suzette_ch009.xml?person_annotation_20240228144602716#Selector",
-					"@type": "oa:XPathSelector", "rdf:value":
-					"TEI/text/body/div/div[3]/div[3]/div[2]/p[3]/persName[5]" } }, "oa:hasBody": {
-					"@type": "cwrc:NaturalPerson", "@id": "https://www.wikidata.org/wiki/Q62560",
-					"dc:format": "text/plain" }, "as:generator": { "@id":
-					"https://leaf.bucknell.edu", "@type": "as:Application", "rdfs:label":
-					"LEAF-Writer", "schema:url": "https://leaf-writer.lincsproject.ca/",
-					"schema:softwareVersion": "3.4.0" } } </rdf:Description>
-				<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/"> { "@context": {
-					"dcterms:created": { "@type": "xsd:dateTime", "@id": "dcterms:created" },
-					"dcterms:issued": { "@type": "xsd:dateTime", "@id": "dcterms:issued" },
-					"oa:motivatedBy": { "@type": "oa:Motivation" }, "@language": "en", "rdf":
-					"http://www.w3.org/1999/02/22-rdf-syntax-ns#", "rdfs":
-					"http://www.w3.org/2000/01/rdf-schema#", "as":
-					"http://www.w3.org/ns/activitystreams#", "cwrc":
-					"http://sparql.cwrc.ca/ontologies/cwrc#", "dc":
-					"http://purl.org/dc/elements/1.1/", "dcterms": "http://purl.org/dc/terms/",
-					"foaf": "http://xmlns.com/foaf/0.1/", "geo":
-					"http://www.geonames.org/ontology#", "oa": "http://www.w3.org/ns/oa#", "schema":
-					"http://schema.org/", "xsd": "http://www.w3.org/2001/XMLSchema#", "fabio":
-					"https://purl.org/spar/fabio#", "bf": "http://www.openlinksw.com/schemas/bif#",
-					"cito": "https://sparontologies.github.io/cito/current/cito.html#", "org":
-					"http://www.w3.org/ns/org#" }, "id":
-					"https://leaf.bucknell.edu/sites/default/files/2023-07/suzette_ch009.xml?note_annotation_20230706163258622",
-					"type": "oa:Annotation", "dcterms:created": "2023-07-06T20:32:58.622Z",
-					"dcterms:creator": { "@id": "5", "@type": [ "cwrc:NaturalPerson",
-					"schema:Person" ], "cwrc:hasName": "John Westbrook" }, "oa:motivatedBy":
-					"oa:describing", "oa:hasTarget": { "@id":
-					"https://leaf.bucknell.edu/sites/default/files/2023-07/suzette_ch009.xml?note_annotation_20230706163258622#Target",
-					"@type": "oa:SpecificResource", "oa:hasSource": { "@id":
-					"https://leaf.bucknell.edu/sites/default/files/2023-07/suzette_ch009.xml",
-					"@type": "dctypes:Text", "dc:format": "text/xml" }, "oa:renderedVia": { "@id":
-					"https://leaf.bucknell.edu", "@type": "as:Application", "rdfs:label":
-					"LEAF-Writer", "schema:softwareVersion": "3.2.2" }, "oa:hasSelector": { "@id":
-					"https://leaf.bucknell.edu/sites/default/files/2023-07/suzette_ch009.xml?note_annotation_20230706163258622#Selector",
-					"@type": "oa:XPathSelector", "rdf:value": "TEI/text/body/div/div/p[2]/note" } },
-					"oa:hasBody": { "@type": "oa:TextualBody", "dc:format": "text/plain",
-					"rdf:value": " Anniversaire. Époque ou cérémonie\n que ramène le souvenir d'un
-					événement arrivé à pareil jour. " }, "as:generator": { "@id":
-					"https://leaf.bucknell.edu", "@type": "as:Application", "rdfs:label":
-					"LEAF-Writer", "schema:url": "https://leaf-writer.lincsproject.ca/",
-					"schema:softwareVersion": "3.2.2" } } </rdf:Description>
-				<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/"> { "@context": {
-					"dcterms:created": { "@type": "xsd:dateTime", "@id": "dcterms:created" },
-					"dcterms:issued": { "@type": "xsd:dateTime", "@id": "dcterms:issued" },
-					"oa:motivatedBy": { "@type": "oa:Motivation" }, "@language": "en", "rdf":
-					"http://www.w3.org/1999/02/22-rdf-syntax-ns#", "rdfs":
-					"http://www.w3.org/2000/01/rdf-schema#", "as":
-					"http://www.w3.org/ns/activitystreams#", "cwrc":
-					"http://sparql.cwrc.ca/ontologies/cwrc#", "dc":
-					"http://purl.org/dc/elements/1.1/", "dcterms": "http://purl.org/dc/terms/",
-					"foaf": "http://xmlns.com/foaf/0.1/", "geo":
-					"http://www.geonames.org/ontology#", "oa": "http://www.w3.org/ns/oa#", "schema":
-					"http://schema.org/", "xsd": "http://www.w3.org/2001/XMLSchema#", "fabio":
-					"https://purl.org/spar/fabio#", "bf": "http://www.openlinksw.com/schemas/bif#",
-					"cito": "https://sparontologies.github.io/cito/current/cito.html#", "org":
-					"http://www.w3.org/ns/org#" }, "id":
-					"https://leaf.bucknell.edu/sites/default/files/2023-07/suzette_ch009.xml?note_annotation_20230706163258625",
-					"type": "oa:Annotation", "dcterms:created": "2023-07-06T20:32:58.625Z",
-					"dcterms:creator": { "@id": "5", "@type": [ "cwrc:NaturalPerson",
-					"schema:Person" ], "cwrc:hasName": "John Westbrook" }, "oa:motivatedBy":
-					"oa:describing", "oa:hasTarget": { "@id":
-					"https://leaf.bucknell.edu/sites/default/files/2023-07/suzette_ch009.xml?note_annotation_20230706163258625#Target",
-					"@type": "oa:SpecificResource", "oa:hasSource": { "@id":
-					"https://leaf.bucknell.edu/sites/default/files/2023-07/suzette_ch009.xml",
-					"@type": "dctypes:Text", "dc:format": "text/xml" }, "oa:renderedVia": { "@id":
-					"https://leaf.bucknell.edu", "@type": "as:Application", "rdfs:label":
-					"LEAF-Writer", "schema:softwareVersion": "3.2.2" }, "oa:hasSelector": { "@id":
-					"https://leaf.bucknell.edu/sites/default/files/2023-07/suzette_ch009.xml?note_annotation_20230706163258625#Selector",
-					"@type": "oa:XPathSelector", "rdf:value": "TEI/text/body/div/div/p[8]/note" } },
-					"oa:hasBody": { "@type": "oa:TextualBody", "dc:format": "text/plain",
-					"rdf:value": " Stérilité d'esprit. Etat d'une personne incapable de tirer\n
-					parti de ce qu’elle sait. " }, "as:generator": { "@id":
-					"https://leaf.bucknell.edu", "@type": "as:Application", "rdfs:label":
-					"LEAF-Writer", "schema:url": "https://leaf-writer.lincsproject.ca/",
-					"schema:softwareVersion": "3.2.2" } } </rdf:Description>
-				<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/"> { "@context": {
-					"dcterms:created": { "@type": "xsd:dateTime", "@id": "dcterms:created" },
-					"dcterms:issued": { "@type": "xsd:dateTime", "@id": "dcterms:issued" },
-					"oa:motivatedBy": { "@type": "oa:Motivation" }, "@language": "en", "rdf":
-					"http://www.w3.org/1999/02/22-rdf-syntax-ns#", "rdfs":
-					"http://www.w3.org/2000/01/rdf-schema#", "as":
-					"http://www.w3.org/ns/activitystreams#", "cwrc":
-					"http://sparql.cwrc.ca/ontologies/cwrc#", "dc":
-					"http://purl.org/dc/elements/1.1/", "dcterms": "http://purl.org/dc/terms/",
-					"foaf": "http://xmlns.com/foaf/0.1/", "geo":
-					"http://www.geonames.org/ontology#", "oa": "http://www.w3.org/ns/oa#", "schema":
-					"http://schema.org/", "xsd": "http://www.w3.org/2001/XMLSchema#", "fabio":
-					"https://purl.org/spar/fabio#", "bf": "http://www.openlinksw.com/schemas/bif#",
-					"cito": "https://sparontologies.github.io/cito/current/cito.html#", "org":
-					"http://www.w3.org/ns/org#" }, "id":
-					"https://leaf.bucknell.edu/sites/default/files/2023-07/suzette_ch009.xml?note_annotation_20230706163258626",
-					"type": "oa:Annotation", "dcterms:created": "2023-07-06T20:32:58.626Z",
-					"dcterms:creator": { "@id": "5", "@type": [ "cwrc:NaturalPerson",
-					"schema:Person" ], "cwrc:hasName": "John Westbrook" }, "oa:motivatedBy":
-					"oa:describing", "oa:hasTarget": { "@id":
-					"https://leaf.bucknell.edu/sites/default/files/2023-07/suzette_ch009.xml?note_annotation_20230706163258626#Target",
-					"@type": "oa:SpecificResource", "oa:hasSource": { "@id":
-					"https://leaf.bucknell.edu/sites/default/files/2023-07/suzette_ch009.xml",
-					"@type": "dctypes:Text", "dc:format": "text/xml" }, "oa:renderedVia": { "@id":
-					"https://leaf.bucknell.edu", "@type": "as:Application", "rdfs:label":
-					"LEAF-Writer", "schema:softwareVersion": "3.2.2" }, "oa:hasSelector": { "@id":
-					"https://leaf.bucknell.edu/sites/default/files/2023-07/suzette_ch009.xml?note_annotation_20230706163258626#Selector",
-					"@type": "oa:XPathSelector", "rdf:value": "TEI/text/body/div/div/p[15]/note" }
-					}, "oa:hasBody": { "@type": "oa:TextualBody", "dc:format": "text/plain",
-					"rdf:value": " Almanach. Petit livre ou calendrier qui\n contient la liste des
-					jours de l'année avec des prédictions relatives au temps.\n " }, "as:generator":
-					{ "@id": "https://leaf.bucknell.edu", "@type": "as:Application", "rdfs:label":
-					"LEAF-Writer", "schema:url": "https://leaf-writer.lincsproject.ca/",
-					"schema:softwareVersion": "3.2.2" } } </rdf:Description>
-				<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/"> { "@context": {
-					"dcterms:created": { "@type": "xsd:dateTime", "@id": "dcterms:created" },
-					"dcterms:issued": { "@type": "xsd:dateTime", "@id": "dcterms:issued" },
-					"oa:motivatedBy": { "@type": "oa:Motivation" }, "@language": "en", "rdf":
-					"http://www.w3.org/1999/02/22-rdf-syntax-ns#", "rdfs":
-					"http://www.w3.org/2000/01/rdf-schema#", "as":
-					"http://www.w3.org/ns/activitystreams#", "cwrc":
-					"http://sparql.cwrc.ca/ontologies/cwrc#", "dc":
-					"http://purl.org/dc/elements/1.1/", "dcterms": "http://purl.org/dc/terms/",
-					"foaf": "http://xmlns.com/foaf/0.1/", "geo":
-					"http://www.geonames.org/ontology#", "oa": "http://www.w3.org/ns/oa#", "schema":
-					"http://schema.org/", "xsd": "http://www.w3.org/2001/XMLSchema#", "fabio":
-					"https://purl.org/spar/fabio#", "bf": "http://www.openlinksw.com/schemas/bif#",
-					"cito": "https://sparontologies.github.io/cito/current/cito.html#", "org":
-					"http://www.w3.org/ns/org#" }, "id":
-					"https://leaf.bucknell.edu/sites/default/files/2023-07/suzette_ch009.xml?note_annotation_20230706163258627",
-					"type": "oa:Annotation", "dcterms:created": "2023-07-06T20:32:58.627Z",
-					"dcterms:creator": { "@id": "5", "@type": [ "cwrc:NaturalPerson",
-					"schema:Person" ], "cwrc:hasName": "John Westbrook" }, "oa:motivatedBy":
-					"oa:describing", "oa:hasTarget": { "@id":
-					"https://leaf.bucknell.edu/sites/default/files/2023-07/suzette_ch009.xml?note_annotation_20230706163258627#Target",
-					"@type": "oa:SpecificResource", "oa:hasSource": { "@id":
-					"https://leaf.bucknell.edu/sites/default/files/2023-07/suzette_ch009.xml",
-					"@type": "dctypes:Text", "dc:format": "text/xml" }, "oa:renderedVia": { "@id":
-					"https://leaf.bucknell.edu", "@type": "as:Application", "rdfs:label":
-					"LEAF-Writer", "schema:softwareVersion": "3.2.2" }, "oa:hasSelector": { "@id":
-					"https://leaf.bucknell.edu/sites/default/files/2023-07/suzette_ch009.xml?note_annotation_20230706163258627#Selector",
-					"@type": "oa:XPathSelector", "rdf:value": "TEI/text/body/div/div/p[20]/note" }
-					}, "oa:hasBody": { "@type": "oa:TextualBody", "dc:format": "text/plain",
-					"rdf:value": " Bibliothèque. Lieu ou meuble dans\n lequel on réunit beaucoup de
-					livres. " }, "as:generator": { "@id": "https://leaf.bucknell.edu", "@type":
-					"as:Application", "rdfs:label": "LEAF-Writer", "schema:url":
-					"https://leaf-writer.lincsproject.ca/", "schema:softwareVersion": "3.2.2" } } </rdf:Description>
-				<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/"> { "@context": {
-					"dcterms:created": { "@type": "xsd:dateTime", "@id": "dcterms:created" },
-					"dcterms:issued": { "@type": "xsd:dateTime", "@id": "dcterms:issued" },
-					"oa:motivatedBy": { "@type": "oa:Motivation" }, "@language": "en", "rdf":
-					"http://www.w3.org/1999/02/22-rdf-syntax-ns#", "rdfs":
-					"http://www.w3.org/2000/01/rdf-schema#", "as":
-					"http://www.w3.org/ns/activitystreams#", "cwrc":
-					"http://sparql.cwrc.ca/ontologies/cwrc#", "dc":
-					"http://purl.org/dc/elements/1.1/", "dcterms": "http://purl.org/dc/terms/",
-					"foaf": "http://xmlns.com/foaf/0.1/", "geo":
-					"http://www.geonames.org/ontology#", "oa": "http://www.w3.org/ns/oa#", "schema":
-					"http://schema.org/", "xsd": "http://www.w3.org/2001/XMLSchema#", "fabio":
-					"https://purl.org/spar/fabio#", "bf": "http://www.openlinksw.com/schemas/bif#",
-					"cito": "https://sparontologies.github.io/cito/current/cito.html#", "org":
-					"http://www.w3.org/ns/org#" }, "id":
-					"https://leaf.bucknell.edu/sites/default/files/2023-07/suzette_ch009.xml?note_annotation_20230706163258629",
-					"type": "oa:Annotation", "dcterms:created": "2023-07-06T20:32:58.629Z",
-					"dcterms:creator": { "@id": "5", "@type": [ "cwrc:NaturalPerson",
-					"schema:Person" ], "cwrc:hasName": "John Westbrook" }, "oa:motivatedBy":
-					"oa:describing", "oa:hasTarget": { "@id":
-					"https://leaf.bucknell.edu/sites/default/files/2023-07/suzette_ch009.xml?note_annotation_20230706163258629#Target",
-					"@type": "oa:SpecificResource", "oa:hasSource": { "@id":
-					"https://leaf.bucknell.edu/sites/default/files/2023-07/suzette_ch009.xml",
-					"@type": "dctypes:Text", "dc:format": "text/xml" }, "oa:renderedVia": { "@id":
-					"https://leaf.bucknell.edu", "@type": "as:Application", "rdfs:label":
-					"LEAF-Writer", "schema:softwareVersion": "3.2.2" }, "oa:hasSelector": { "@id":
-					"https://leaf.bucknell.edu/sites/default/files/2023-07/suzette_ch009.xml?note_annotation_20230706163258629#Selector",
-					"@type": "oa:XPathSelector", "rdf:value": "TEI/text/body/div/div/p[24]/note" }
-					}, "oa:hasBody": { "@type": "oa:TextualBody", "dc:format": "text/plain",
-					"rdf:value": " Réfléchi. Le contraire d'étourdi. " }, "as:generator": { "@id":
-					"https://leaf.bucknell.edu", "@type": "as:Application", "rdfs:label":
-					"LEAF-Writer", "schema:url": "https://leaf-writer.lincsproject.ca/",
-					"schema:softwareVersion": "3.2.2" } } </rdf:Description>
-				<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/"> { "@context": {
-					"dcterms:created": { "@type": "xsd:dateTime", "@id": "dcterms:created" },
-					"dcterms:issued": { "@type": "xsd:dateTime", "@id": "dcterms:issued" },
-					"oa:motivatedBy": { "@type": "oa:Motivation" }, "@language": "en", "rdf":
-					"http://www.w3.org/1999/02/22-rdf-syntax-ns#", "rdfs":
-					"http://www.w3.org/2000/01/rdf-schema#", "as":
-					"http://www.w3.org/ns/activitystreams#", "cwrc":
-					"http://sparql.cwrc.ca/ontologies/cwrc#", "dc":
-					"http://purl.org/dc/elements/1.1/", "dcterms": "http://purl.org/dc/terms/",
-					"foaf": "http://xmlns.com/foaf/0.1/", "geo":
-					"http://www.geonames.org/ontology#", "oa": "http://www.w3.org/ns/oa#", "schema":
-					"http://schema.org/", "xsd": "http://www.w3.org/2001/XMLSchema#", "fabio":
-					"https://purl.org/spar/fabio#", "bf": "http://www.openlinksw.com/schemas/bif#",
-					"cito": "https://sparontologies.github.io/cito/current/cito.html#", "org":
-					"http://www.w3.org/ns/org#" }, "id":
-					"https://leaf.bucknell.edu/sites/default/files/2023-07/suzette_ch009.xml?place_annotation_20240223143255022",
-					"type": "oa:Annotation", "dcterms:created": "2024-02-23T19:32:55.022Z",
-					"dcterms:modified": "2024-02-23T19:32:55.022Z", "dcterms:creator": { "@id":
-					"11", "@type": [ "cwrc:NaturalPerson", "schema:Person" ], "cwrc:hasName":
-					"Rebecca Heintzelman" }, "oa:motivatedBy": "oa:identifying", "oa:hasTarget": {
-					"@id":
-					"https://leaf.bucknell.edu/sites/default/files/2023-07/suzette_ch009.xml?place_annotation_20240223143255022#Target",
-					"@type": "oa:SpecificResource", "oa:hasSource": { "@id":
-					"https://leaf.bucknell.edu/sites/default/files/2023-07/suzette_ch009.xml",
-					"@type": "dctypes:Text", "dc:format": "text/xml" }, "oa:renderedVia": { "@id":
-					"https://leaf.bucknell.edu", "@type": "as:Application", "rdfs:label":
-					"LEAF-Writer", "schema:softwareVersion": "3.4.0" }, "oa:hasSelector": { "@id":
-					"https://leaf.bucknell.edu/sites/default/files/2023-07/suzette_ch009.xml?place_annotation_20240223143255022#Selector",
-					"@type": "oa:XPathSelector", "rdf:value":
-					"TEI/text/body/div/div[3]/div[3]/div[2]/p[3]/placeName/placeName" } },
-					"oa:hasBody": { "@type": "cwrc:RealPlace", "@id":
-					"http://www.wikidata.org/entity/Q6602", "dc:format": "text/plain" },
-					"as:generator": { "@id": "https://leaf.bucknell.edu", "@type": "as:Application",
-					"rdfs:label": "LEAF-Writer", "schema:url":
-					"https://leaf-writer.lincsproject.ca/", "schema:softwareVersion": "3.4.0" } } </rdf:Description>
-				<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/"> { "@context": {
-					"dcterms:created": { "@type": "xsd:dateTime", "@id": "dcterms:created" },
-					"dcterms:issued": { "@type": "xsd:dateTime", "@id": "dcterms:issued" },
-					"oa:motivatedBy": { "@type": "oa:Motivation" }, "@language": "en", "rdf":
-					"http://www.w3.org/1999/02/22-rdf-syntax-ns#", "rdfs":
-					"http://www.w3.org/2000/01/rdf-schema#", "as":
-					"http://www.w3.org/ns/activitystreams#", "cwrc":
-					"http://sparql.cwrc.ca/ontologies/cwrc#", "dc":
-					"http://purl.org/dc/elements/1.1/", "dcterms": "http://purl.org/dc/terms/",
-					"foaf": "http://xmlns.com/foaf/0.1/", "geo":
-					"http://www.geonames.org/ontology#", "oa": "http://www.w3.org/ns/oa#", "schema":
-					"http://schema.org/", "xsd": "http://www.w3.org/2001/XMLSchema#", "fabio":
-					"https://purl.org/spar/fabio#", "bf": "http://www.openlinksw.com/schemas/bif#",
-					"cito": "https://sparontologies.github.io/cito/current/cito.html#", "org":
-					"http://www.w3.org/ns/org#" }, "id":
-					"https://leaf.bucknell.edu/sites/default/files/2023-07/suzette_ch009.xml?person_annotation_20240228144441787",
-					"type": "oa:Annotation", "dcterms:created": "2024-02-28T19:44:41.787Z",
-					"dcterms:creator": { "@id": "11", "@type": [ "cwrc:NaturalPerson",
-					"schema:Person" ], "cwrc:hasName": "Rebecca Heintzelman" }, "oa:motivatedBy":
-					"oa:identifying", "oa:hasTarget": { "@id":
-					"https://leaf.bucknell.edu/sites/default/files/2023-07/suzette_ch009.xml?person_annotation_20240228144441787#Target",
-					"@type": "oa:SpecificResource", "oa:hasSource": { "@id":
-					"https://leaf.bucknell.edu/sites/default/files/2023-07/suzette_ch009.xml",
-					"@type": "dctypes:Text", "dc:format": "text/xml" }, "oa:renderedVia": { "@id":
-					"https://leaf.bucknell.edu", "@type": "as:Application", "rdfs:label":
-					"LEAF-Writer", "schema:softwareVersion": "3.4.0" }, "oa:hasSelector": { "@id":
-					"https://leaf.bucknell.edu/sites/default/files/2023-07/suzette_ch009.xml?person_annotation_20240228144441787#Selector",
-					"@type": "oa:XPathSelector", "rdf:value":
-					"TEI/text/body/div/div[3]/div[3]/div[2]/p[3]/persName/persName" } },
-					"oa:hasBody": { "@type": "cwrc:NaturalPerson", "@id":
-					"https://www.wikidata.org/wiki/Q8958", "dc:format": "text/plain" },
-					"as:generator": { "@id": "https://leaf.bucknell.edu", "@type": "as:Application",
-					"rdfs:label": "LEAF-Writer", "schema:url":
-					"https://leaf-writer.lincsproject.ca/", "schema:softwareVersion": "3.4.0" } } </rdf:Description>
-				<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/"> { "@context": {
-					"dcterms:created": { "@type": "xsd:dateTime", "@id": "dcterms:created" },
-					"dcterms:issued": { "@type": "xsd:dateTime", "@id": "dcterms:issued" },
-					"oa:motivatedBy": { "@type": "oa:Motivation" }, "@language": "en", "rdf":
-					"http://www.w3.org/1999/02/22-rdf-syntax-ns#", "rdfs":
-					"http://www.w3.org/2000/01/rdf-schema#", "as":
-					"http://www.w3.org/ns/activitystreams#", "cwrc":
-					"http://sparql.cwrc.ca/ontologies/cwrc#", "dc":
-					"http://purl.org/dc/elements/1.1/", "dcterms": "http://purl.org/dc/terms/",
-					"foaf": "http://xmlns.com/foaf/0.1/", "geo":
-					"http://www.geonames.org/ontology#", "oa": "http://www.w3.org/ns/oa#", "schema":
-					"http://schema.org/", "xsd": "http://www.w3.org/2001/XMLSchema#", "fabio":
-					"https://purl.org/spar/fabio#", "bf": "http://www.openlinksw.com/schemas/bif#",
-					"cito": "https://sparontologies.github.io/cito/current/cito.html#", "org":
-					"http://www.w3.org/ns/org#" }, "id":
-					"https://leaf.bucknell.edu/sites/default/files/2023-07/suzette_ch009.xml?place_annotation_20240223143409460",
-					"type": "oa:Annotation", "dcterms:created": "2024-02-23T19:34:09.460Z",
-					"dcterms:modified": "2024-02-23T19:34:09.460Z", "dcterms:creator": { "@id":
-					"11", "@type": [ "cwrc:NaturalPerson", "schema:Person" ], "cwrc:hasName":
-					"Rebecca Heintzelman" }, "oa:motivatedBy": "oa:identifying", "oa:hasTarget": {
-					"@id":
-					"https://leaf.bucknell.edu/sites/default/files/2023-07/suzette_ch009.xml?place_annotation_20240223143409460#Target",
-					"@type": "oa:SpecificResource", "oa:hasSource": { "@id":
-					"https://leaf.bucknell.edu/sites/default/files/2023-07/suzette_ch009.xml",
-					"@type": "dctypes:Text", "dc:format": "text/xml" }, "oa:renderedVia": { "@id":
-					"https://leaf.bucknell.edu", "@type": "as:Application", "rdfs:label":
-					"LEAF-Writer", "schema:softwareVersion": "3.4.0" }, "oa:hasSelector": { "@id":
-					"https://leaf.bucknell.edu/sites/default/files/2023-07/suzette_ch009.xml?place_annotation_20240223143409460#Selector",
-					"@type": "oa:XPathSelector", "rdf:value":
-					"TEI/text/body/div/div[3]/div[3]/div[2]/p[3]/placeName[2]/placeName" } },
-					"oa:hasBody": { "@type": "cwrc:RealPlace", "@id":
-					"http://www.wikidata.org/entity/Q1720", "dc:format": "text/plain" },
-					"as:generator": { "@id": "https://leaf.bucknell.edu", "@type": "as:Application",
-					"rdfs:label": "LEAF-Writer", "schema:url":
-					"https://leaf-writer.lincsproject.ca/", "schema:softwareVersion": "3.4.0" } } </rdf:Description>
-				<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/"> { "@context": {
-					"dcterms:created": { "@type": "xsd:dateTime", "@id": "dcterms:created" },
-					"dcterms:issued": { "@type": "xsd:dateTime", "@id": "dcterms:issued" },
-					"oa:motivatedBy": { "@type": "oa:Motivation" }, "@language": "en", "rdf":
-					"http://www.w3.org/1999/02/22-rdf-syntax-ns#", "rdfs":
-					"http://www.w3.org/2000/01/rdf-schema#", "as":
-					"http://www.w3.org/ns/activitystreams#", "cwrc":
-					"http://sparql.cwrc.ca/ontologies/cwrc#", "dc":
-					"http://purl.org/dc/elements/1.1/", "dcterms": "http://purl.org/dc/terms/",
-					"foaf": "http://xmlns.com/foaf/0.1/", "geo":
-					"http://www.geonames.org/ontology#", "oa": "http://www.w3.org/ns/oa#", "schema":
-					"http://schema.org/", "xsd": "http://www.w3.org/2001/XMLSchema#", "fabio":
-					"https://purl.org/spar/fabio#", "bf": "http://www.openlinksw.com/schemas/bif#",
-					"cito": "https://sparontologies.github.io/cito/current/cito.html#", "org":
-					"http://www.w3.org/ns/org#" }, "id":
-					"https://leaf.bucknell.edu/sites/default/files/2023-07/suzette_ch009.xml?place_annotation_20240223143435861",
-					"type": "oa:Annotation", "dcterms:created": "2024-02-23T19:34:35.861Z",
-					"dcterms:modified": "2024-02-23T19:34:35.861Z", "dcterms:creator": { "@id":
-					"11", "@type": [ "cwrc:NaturalPerson", "schema:Person" ], "cwrc:hasName":
-					"Rebecca Heintzelman" }, "oa:motivatedBy": "oa:identifying", "oa:hasTarget": {
-					"@id":
-					"https://leaf.bucknell.edu/sites/default/files/2023-07/suzette_ch009.xml?place_annotation_20240223143435861#Target",
-					"@type": "oa:SpecificResource", "oa:hasSource": { "@id":
-					"https://leaf.bucknell.edu/sites/default/files/2023-07/suzette_ch009.xml",
-					"@type": "dctypes:Text", "dc:format": "text/xml" }, "oa:renderedVia": { "@id":
-					"https://leaf.bucknell.edu", "@type": "as:Application", "rdfs:label":
-					"LEAF-Writer", "schema:softwareVersion": "3.4.0" }, "oa:hasSelector": { "@id":
-					"https://leaf.bucknell.edu/sites/default/files/2023-07/suzette_ch009.xml?place_annotation_20240223143435861#Selector",
-					"@type": "oa:XPathSelector", "rdf:value":
-					"TEI/text/body/div/div[3]/div[3]/div[2]/p[3]/placeName[3]/placeName" } },
-					"oa:hasBody": { "@type": "cwrc:RealPlace", "@id":
-					"http://www.wikidata.org/entity/Q1720", "dc:format": "text/plain" },
-					"as:generator": { "@id": "https://leaf.bucknell.edu", "@type": "as:Application",
-					"rdfs:label": "LEAF-Writer", "schema:url":
-					"https://leaf-writer.lincsproject.ca/", "schema:softwareVersion": "3.4.0" } }
-				</rdf:Description>
-			</rdf:RDF></xenoData>
 		<profileDesc>
 			<langUsage>
 				<language ident="fr">French</language>
@@ -609,9 +85,8 @@
 					facs="https://raw.githubusercontent.com/BucknellDSC/suzette/master/images/page_images/Suzette_029.jpg"/>
 				<head> 9. — La clef du trésor . </head>
 				<div type="récit">
-					<p>Suzette avait maintenant
-						douze ans, et c'était pour elle la fin des classes qui arrive toujours un
-						peu trop vite. </p>
+					<p>Suzette avait maintenant douze ans, et c'était pour elle la fin des classes
+						qui arrive toujours un peu trop vite. </p>
 					<fw type="footer"/>
 					<pb type="page" n="30"
 						facs="https://raw.githubusercontent.com/BucknellDSC/suzette/master/images/page_images/Suzette_030.jpg"/>
@@ -644,29 +119,27 @@
 					<pb type="page" n="31"
 						facs="https://raw.githubusercontent.com/BucknellDSC/suzette/master/images/page_images/Suzette_031.jpg"/>
 					<p>Les demoiselles de douze ans, et les autres plus jeunes, se mirent à rire. </p>
-					<p> — Oui, reprit Mme Valon,
-						vous emportez d'ici la lecture, clef d'un vaste trésor qui est le savoir.
-						Beaucoup de celles qui vous ont précédées sur ces bancs ont oublié cette
-						clef au fond de leur poche et sont retournées aussitôt à la pauvreté, à la
-						stérilité d'esprit* <note type="annotation"> Stérilité d'esprit. Etat d'une
-							personne incapable de tirer parti de ce qu’elle sait. </note> d'où
-						l'école avait voulu les tirer. Voyons, Jeanne, et toi, Madeleine, et toi, Suzette, vous me comprenez ? </p>
+					<p> — Oui, reprit Mme Valon, vous emportez d'ici la lecture, clef d'un vaste
+						trésor qui est le savoir. Beaucoup de celles qui vous ont précédées sur ces
+						bancs ont oublié cette clef au fond de leur poche et sont retournées
+						aussitôt à la pauvreté, à la stérilité d'esprit* <note type="annotation">
+							Stérilité d'esprit. Etat d'une personne incapable de tirer parti de ce
+							qu’elle sait. </note> d'où l'école avait voulu les tirer. Voyons,
+						Jeanne, et toi, Madeleine, et toi, Suzette, vous me comprenez ? </p>
 					<p> — Oui, Madame.</p>
 					<p>— Eh bien ! que ferez-vous de la clef ? </p>
 					<p> — Nous ouvririons le trésor, répondit Suzette, si nous avions des livres. </p>
 					<p> — A la bonne heure ! </p>
 					<p> — Mais nous n'en avons pas. </p>
 					<p> — Vraiment! pas un seul chez aucune de vous ? </p>
-					<p> — Moi, dit Madeleine,
-						j'en ai un : l'almanach* <note type="annotation"> Almanach. Petit livre ou
-							calendrier qui contient la liste des jours de l'année avec des
-							prédictions relatives au temps. </note> de Mathieu
-							Lænsberg. </p>
-					<p> — Moi, s'écria Jeanne, j'en
-						ai trois. </p>
+					<p> — Moi, dit Madeleine, j'en ai un : l'almanach* <note type="annotation">
+							Almanach. Petit livre ou calendrier qui contient la liste des jours de
+							l'année avec des prédictions relatives au temps. </note> de Mathieu
+						Lænsberg. </p>
+					<p> — Moi, s'écria Jeanne, j'en ai trois. </p>
 					<p> — Moi, quatre, dit Suzette. </p>
-					<p> — En y comprenant l’almanach, reprit en souriant Mme Valon, cela fait déjà huit. Et vous
-						autres ? </p>
+					<p> — En y comprenant l’almanach, reprit en souriant Mme Valon, cela fait déjà
+						huit. Et vous autres ? </p>
 					<p> Chacune dit son chiffre, et l'addition donna soixante-trois livres. </p>
 					<p> — Vous me les apporterez ; j'en ferai un choix ; avec une quarantaine
 						d'ouvrages de ma bibliothèque* <note type="annotation"> Bibliothèque. Lieu
@@ -678,37 +151,35 @@
 						quittez l'école, n'oubliez pas qu'avec cette bibliothèque, vous avez encore
 						ici une amie. </p>
 					<p> Spontanément les grandes filles se levèrent de leurs bancs, et entourèrent
-							Mme Valon. Les
-						petites, celles qui devaient revenir dans six semaines, firent de même. On
-						embrassa l'institutrice, car on l'aimait. </p>
+						Mme Valon. Les petites, celles qui devaient revenir dans six semaines,
+						firent de même. On embrassa l'institutrice, car on l'aimait. </p>
 					<p> — Allons, hop ! en vacances ! dit-elle avec un sourire ému. </p>
 					<p> Ce fut une envolée d'oiseaux à qui l'on ouvre la cage. </p>
 					<pb type="page" n="32"
 						facs="https://raw.githubusercontent.com/BucknellDSC/suzette/master/images/page_images/Suzette_032.jpg"/>
-					<p>Suzette, qui avait le cœur
-						tendre et réfléchi* <note type="annotation"> Réfléchi. Le contraire
-							d'étourdi. </note>, dit adieu d'un mélancolique regard à ces murs, à son
-						banc, aux six années de sa jeune vie déjà passées là. </p>
+					<p>Suzette, qui avait le cœur tendre et réfléchi* <note type="annotation">
+							Réfléchi. Le contraire d'étourdi. </note>, dit adieu d'un mélancolique
+						regard à ces murs, à son banc, aux six années de sa jeune vie déjà passées
+						là. </p>
 				</div>
 				<div type="questionnaire">
 					<head> Questionnaire. </head>
 					<list>
 						<item>— Faites le portrait de Suzette à douze ans.</item>
 						<item>— Qu'entendez-vous par anniversaire, par vacances ?</item>
-						<item>— Quelle question adressa Mme
-								Valon à ses élèves sur l'utilité de la lecture ?</item>
+						<item>— Quelle question adressa Mme Valon à ses élèves sur l'utilité de la
+							lecture ?</item>
 						<item>— Pourquoi tant d'élèves oublient-elles ce qu'elles ont appris à
 							l'école ?</item>
 						<item>— A quelle condition peut-on lire ?</item>
 						<item>— Que proposa madame l'institutrice pour former une bibliothèque
 							scolaire ?</item>
 						<item>— Quels avantages présente une bibliothèque scolaire ?</item>
-						<item>— Quel mot affectueux dit Mme
-								Valon aux enfants ?</item>
+						<item>— Quel mot affectueux dit Mme Valon aux enfants ?</item>
 						<item>— Comment celles-ci prirent-elles congé d'elle ?</item>
-						<item>— Pourquoi aimaient-elles Mme
-								Valon ?</item>
-						<item>— Quelle pensée attristait Suzette en reprenant le chemin de la maison ?</item>
+						<item>— Pourquoi aimaient-elles Mme Valon ?</item>
+						<item>— Quelle pensée attristait Suzette en reprenant le chemin de la maison
+							?</item>
 					</list>
 				</div>
 				<div type="exercices">
@@ -767,15 +238,15 @@
 									type="produit" subtype="fruit" key="fruit">fruit</objectName>
 								des études d'une vie entière s'y peut recueillir en quelques heures.
 								Ils sont à l'âme ce que les aliments sont au corps.</p>
-							<p>Un auteur célèbre, Pétrarque,
-								parlait ainsi des livres : « Ce sont des amis dont la société m'est
-								fort agréable, des amis de tous les pays et de tous les temps. Les
-								uns me racontent les événements des siècles passés ; d'autres me
-								révèlent les secrets de la nature. Celui-ci m'enseigne le moyen de
-								bien vivre et de bien mourir ; celui-là dissipe mes soucis par son
-								enjouement ; il en est qui m'apprennent à maîtriser mes désirs, à me
-								supporter moi-même ; enfin, ils me conduisent sur la route de la
-								science et satisfont à tous les besoins de mon esprit. » </p>
+							<p>Un auteur célèbre, Pétrarque, parlait ainsi des livres : « Ce sont
+								des amis dont la société m'est fort agréable, des amis de tous les
+								pays et de tous les temps. Les uns me racontent les événements des
+								siècles passés ; d'autres me révèlent les secrets de la nature.
+								Celui-ci m'enseigne le moyen de bien vivre et de bien mourir ;
+								celui-là dissipe mes soucis par son enjouement ; il en est qui
+								m'apprennent à maîtriser mes désirs, à me supporter moi-même ;
+								enfin, ils me conduisent sur la route de la science et satisfont à
+								tous les besoins de mon esprit. » </p>
 							<p>(Donner ici le résumé d'un livre qu'on aura lu. Voir, page 407, le
 									<title>COURS DE COMPOSITION</title> (degré supérieur, Maître),
 								par E. LAPORTE.) </p>
@@ -808,31 +279,16 @@
 								prend les lettres dans de petites cases, et il les dispose sur un
 								cadre ayant les dimensions d'une feuille de papier. (Voir, pour la
 								suite, la légende de la gravure de la page 30.) </p>
-							<p>L'<term>imprimerie</term> fut découverte en 1434, à <placeName
-									key="Strasbourg" ref="http://www.wikidata.org/entity/Q6602"
-									>Strasbourg</placeName>, par <persName key="Jean Gutenberg"
-										ref="https://www.wikidata.org/wiki/Q8958" ana="allemande"
-										>Jean Gutenberg</persName>, né à <placeName
-									key="Mainz" ref="http://www.wikidata.org/entity/Q1720"
-									>Mayence</placeName> en 1400 : c'était alors un riche bourgeois.
-								Ruiné par les frais de sa découverte, il retourna à <placeName
-									key="Mayence" ref="http://www.wikidata.org/entity/Q1720"
-									>Mayence</placeName> vers 1444 et, en 1450, s'y associa avec
-									<persName ref="https://www.wikidata.org/wiki/Q64390"
-									ana="allemande" key="Jean Fust" role="imprimeur">Jean
-									Fust</persName>. Tous deux publièrent la Bible : mais dès que
-									<persName ref="https://www.wikidata.org/wiki/Q64390"
-									ana="allemande" key="Jean Fust">Fust</persName> connut les
-								procédés de l'art nouveau, il poursuivit <persName
-									ref="https://www.wikidata.org/wiki/Q8958" ana="allemande"
-									key="Jean Gutenberg">Gutenberg</persName> afin d'obtenir le
+							<p>L'<term>imprimerie</term> fut découverte en 1434, à Strasbourg, par
+								Jean Gutenberg, né à Mayence en 1400 : c'était alors un riche
+								bourgeois. Ruiné par les frais de sa découverte, il
+								retourna à Mayence vers 1444 et, en 1450, s'y associa avec Jean
+								Fust. Tous deux publièrent la Bible : mais dès que Fust connut les
+								procédés de l'art nouveau, il poursuivit Gutenberg afin d'obtenir le
 								remboursement des avances qu'il lui avait faites, puis l'abandonna
-								sans ressources pour s'adjoindre <persName
-									ref="https://www.wikidata.org/wiki/Q62560" ana="allemande"
-									key="Pierre Schæffer" role="imprimeur">Pierre
-									Schæffer</persName>. Le malheureux inventeur parvint néanmoins
-								à fonder une imprimerie qu'il posséda jusqu'à la fin de sa vie
-								(1468). </p>
+								sans ressources pour s'adjoindre Pierre Schæffer. Le malheureux
+								inventeur parvint néanmoins à fonder une imprimerie qu'il posséda
+								jusqu'à la fin de sa vie (1468). </p>
 							<p>Une fois composés en lettres métalliques, les livres peuvent être
 								reproduits à peu de frais à un nombre considérable, ce qui explique
 								leur bon marché. </p>

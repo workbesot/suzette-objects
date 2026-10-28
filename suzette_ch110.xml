@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/BucknellDSC/suzette/master/CSS/suzette_cwrc.css"?>
 <?xml-model href="https://raw.githubusercontent.com/BucknellDSC/suzette/refs/heads/master/out/suzette.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
 	<teiHeader>
 		<fileDesc>
 			<titleStmt>
@@ -71,391 +71,6 @@
 				</biblStruct>
 			</sourceDesc>
 		</fileDesc>
-		<xenoData><rdf:RDF xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-				xmlns:as="http://www.w3.org/ns/activitystreams#"
-				xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#"
-				xmlns:dc="http://purl.org/dc/elements/1.1/"
-				xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/"
-				xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#"
-				xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
-				xmlns:fabio="https://purl.org/spar/fabio#"
-				xmlns:bf="http://www.openlinksw.com/schemas/bif#"
-				xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#"
-				xmlns:org="http://www.w3.org/ns/org#">
-				<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/"> { "@context": {
-					"dcterms:created": { "@type": "xsd:dateTime", "@id": "dcterms:created" },
-					"dcterms:issued": { "@type": "xsd:dateTime", "@id": "dcterms:issued" },
-					"oa:motivatedBy": { "@type": "oa:Motivation" }, "@language": "en", "rdf":
-					"http://www.w3.org/1999/02/22-rdf-syntax-ns#", "rdfs":
-					"http://www.w3.org/2000/01/rdf-schema#", "as":
-					"http://www.w3.org/ns/activitystreams#", "cwrc":
-					"http://sparql.cwrc.ca/ontologies/cwrc#", "dc":
-					"http://purl.org/dc/elements/1.1/", "dcterms": "http://purl.org/dc/terms/",
-					"foaf": "http://xmlns.com/foaf/0.1/", "geo":
-					"http://www.geonames.org/ontology#", "oa": "http://www.w3.org/ns/oa#", "schema":
-					"http://schema.org/", "xsd": "http://www.w3.org/2001/XMLSchema#", "fabio":
-					"https://purl.org/spar/fabio#", "bf": "http://www.openlinksw.com/schemas/bif#",
-					"cito": "https://sparontologies.github.io/cito/current/cito.html#", "org":
-					"http://www.w3.org/ns/org#" }, "id":
-					"https://leaf.bucknell.edu/sites/default/files/2023-07/suzette_ch110.xml?note_annotation_20231024104425491",
-					"type": "oa:Annotation", "dcterms:created": "2023-10-24T14:44:25.491Z",
-					"dcterms:modified": "2023-10-24T14:44:25.491Z", "dcterms:creator": { "@id":
-					"11", "@type": [ "cwrc:NaturalPerson", "schema:Person" ], "cwrc:hasName":
-					"Rebecca Heintzelman" }, "oa:motivatedBy": "oa:describing", "oa:hasTarget": {
-					"@id":
-					"https://leaf.bucknell.edu/sites/default/files/2023-07/suzette_ch110.xml?note_annotation_20231024104425491#Target",
-					"@type": "oa:SpecificResource", "oa:hasSource": { "@id":
-					"https://leaf.bucknell.edu/sites/default/files/2023-07/suzette_ch110.xml",
-					"@type": "dctypes:Text", "dc:format": "text/xml" }, "oa:renderedVia": { "@id":
-					"https://leaf.bucknell.edu", "@type": "as:Application", "rdfs:label":
-					"LEAF-Writer", "schema:softwareVersion": "3.2.2" }, "oa:hasSelector": { "@id":
-					"https://leaf.bucknell.edu/sites/default/files/2023-07/suzette_ch110.xml?note_annotation_20231024104425491#Selector",
-					"@type": "oa:XPathSelector", "rdf:value": "TEI/text/body/div/div/p/note" } },
-					"oa:hasBody": { "@type": "oa:TextualBody", "dc:format": "text/plain",
-					"rdf:value": "Minuscule. Tout\n petit." }, "as:generator": { "@id":
-					"https://leaf.bucknell.edu", "@type": "as:Application", "rdfs:label":
-					"LEAF-Writer", "schema:url": "https://leaf-writer.lincsproject.ca/",
-					"schema:softwareVersion": "3.2.2" } } </rdf:Description>
-				<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/"> { "@context": {
-					"dcterms:created": { "@type": "xsd:dateTime", "@id": "dcterms:created" },
-					"dcterms:issued": { "@type": "xsd:dateTime", "@id": "dcterms:issued" },
-					"oa:motivatedBy": { "@type": "oa:Motivation" }, "@language": "en", "rdf":
-					"http://www.w3.org/1999/02/22-rdf-syntax-ns#", "rdfs":
-					"http://www.w3.org/2000/01/rdf-schema#", "as":
-					"http://www.w3.org/ns/activitystreams#", "cwrc":
-					"http://sparql.cwrc.ca/ontologies/cwrc#", "dc":
-					"http://purl.org/dc/elements/1.1/", "dcterms": "http://purl.org/dc/terms/",
-					"foaf": "http://xmlns.com/foaf/0.1/", "geo":
-					"http://www.geonames.org/ontology#", "oa": "http://www.w3.org/ns/oa#", "schema":
-					"http://schema.org/", "xsd": "http://www.w3.org/2001/XMLSchema#", "fabio":
-					"https://purl.org/spar/fabio#", "bf": "http://www.openlinksw.com/schemas/bif#",
-					"cito": "https://sparontologies.github.io/cito/current/cito.html#", "org":
-					"http://www.w3.org/ns/org#" }, "id":
-					"https://leaf.bucknell.edu/sites/default/files/2023-07/suzette_ch110.xml?note_annotation_20231024104425493",
-					"type": "oa:Annotation", "dcterms:created": "2023-10-24T14:44:25.493Z",
-					"dcterms:modified": "2023-10-24T14:44:25.493Z", "dcterms:creator": { "@id":
-					"11", "@type": [ "cwrc:NaturalPerson", "schema:Person" ], "cwrc:hasName":
-					"Rebecca Heintzelman" }, "oa:motivatedBy": "oa:describing", "oa:hasTarget": {
-					"@id":
-					"https://leaf.bucknell.edu/sites/default/files/2023-07/suzette_ch110.xml?note_annotation_20231024104425493#Target",
-					"@type": "oa:SpecificResource", "oa:hasSource": { "@id":
-					"https://leaf.bucknell.edu/sites/default/files/2023-07/suzette_ch110.xml",
-					"@type": "dctypes:Text", "dc:format": "text/xml" }, "oa:renderedVia": { "@id":
-					"https://leaf.bucknell.edu", "@type": "as:Application", "rdfs:label":
-					"LEAF-Writer", "schema:softwareVersion": "3.2.2" }, "oa:hasSelector": { "@id":
-					"https://leaf.bucknell.edu/sites/default/files/2023-07/suzette_ch110.xml?note_annotation_20231024104425493#Selector",
-					"@type": "oa:XPathSelector", "rdf:value": "TEI/text/body/div/div/p/note[2]" } },
-					"oa:hasBody": { "@type": "oa:TextualBody", "dc:format": "text/plain",
-					"rdf:value": "Chalet. Maison de bois que l'on construit\n surtout dans les
-					montagnes." }, "as:generator": { "@id": "https://leaf.bucknell.edu", "@type":
-					"as:Application", "rdfs:label": "LEAF-Writer", "schema:url":
-					"https://leaf-writer.lincsproject.ca/", "schema:softwareVersion": "3.2.2" } } </rdf:Description>
-				<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/"> { "@context": {
-					"dcterms:created": { "@type": "xsd:dateTime", "@id": "dcterms:created" },
-					"dcterms:issued": { "@type": "xsd:dateTime", "@id": "dcterms:issued" },
-					"oa:motivatedBy": { "@type": "oa:Motivation" }, "@language": "en", "rdf":
-					"http://www.w3.org/1999/02/22-rdf-syntax-ns#", "rdfs":
-					"http://www.w3.org/2000/01/rdf-schema#", "as":
-					"http://www.w3.org/ns/activitystreams#", "cwrc":
-					"http://sparql.cwrc.ca/ontologies/cwrc#", "dc":
-					"http://purl.org/dc/elements/1.1/", "dcterms": "http://purl.org/dc/terms/",
-					"foaf": "http://xmlns.com/foaf/0.1/", "geo":
-					"http://www.geonames.org/ontology#", "oa": "http://www.w3.org/ns/oa#", "schema":
-					"http://schema.org/", "xsd": "http://www.w3.org/2001/XMLSchema#", "fabio":
-					"https://purl.org/spar/fabio#", "bf": "http://www.openlinksw.com/schemas/bif#",
-					"cito": "https://sparontologies.github.io/cito/current/cito.html#", "org":
-					"http://www.w3.org/ns/org#" }, "id":
-					"https://leaf.bucknell.edu/sites/default/files/2023-07/suzette_ch110.xml?note_annotation_20231024104425494",
-					"type": "oa:Annotation", "dcterms:created": "2023-10-24T14:44:25.494Z",
-					"dcterms:modified": "2023-10-24T14:44:25.494Z", "dcterms:creator": { "@id":
-					"11", "@type": [ "cwrc:NaturalPerson", "schema:Person" ], "cwrc:hasName":
-					"Rebecca Heintzelman" }, "oa:motivatedBy": "oa:describing", "oa:hasTarget": {
-					"@id":
-					"https://leaf.bucknell.edu/sites/default/files/2023-07/suzette_ch110.xml?note_annotation_20231024104425494#Target",
-					"@type": "oa:SpecificResource", "oa:hasSource": { "@id":
-					"https://leaf.bucknell.edu/sites/default/files/2023-07/suzette_ch110.xml",
-					"@type": "dctypes:Text", "dc:format": "text/xml" }, "oa:renderedVia": { "@id":
-					"https://leaf.bucknell.edu", "@type": "as:Application", "rdfs:label":
-					"LEAF-Writer", "schema:softwareVersion": "3.2.2" }, "oa:hasSelector": { "@id":
-					"https://leaf.bucknell.edu/sites/default/files/2023-07/suzette_ch110.xml?note_annotation_20231024104425494#Selector",
-					"@type": "oa:XPathSelector", "rdf:value": "TEI/text/body/div/div/p[2]/note" } },
-					"oa:hasBody": { "@type": "oa:TextualBody", "dc:format": "text/plain",
-					"rdf:value": "Douar. Village arabe\n forme de tentes." }, "as:generator": {
-					"@id": "https://leaf.bucknell.edu", "@type": "as:Application", "rdfs:label":
-					"LEAF-Writer", "schema:url": "https://leaf-writer.lincsproject.ca/",
-					"schema:softwareVersion": "3.2.2" } } </rdf:Description>
-				<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/"> { "@context": {
-					"dcterms:created": { "@type": "xsd:dateTime", "@id": "dcterms:created" },
-					"dcterms:issued": { "@type": "xsd:dateTime", "@id": "dcterms:issued" },
-					"oa:motivatedBy": { "@type": "oa:Motivation" }, "@language": "en", "rdf":
-					"http://www.w3.org/1999/02/22-rdf-syntax-ns#", "rdfs":
-					"http://www.w3.org/2000/01/rdf-schema#", "as":
-					"http://www.w3.org/ns/activitystreams#", "cwrc":
-					"http://sparql.cwrc.ca/ontologies/cwrc#", "dc":
-					"http://purl.org/dc/elements/1.1/", "dcterms": "http://purl.org/dc/terms/",
-					"foaf": "http://xmlns.com/foaf/0.1/", "geo":
-					"http://www.geonames.org/ontology#", "oa": "http://www.w3.org/ns/oa#", "schema":
-					"http://schema.org/", "xsd": "http://www.w3.org/2001/XMLSchema#", "fabio":
-					"https://purl.org/spar/fabio#", "bf": "http://www.openlinksw.com/schemas/bif#",
-					"cito": "https://sparontologies.github.io/cito/current/cito.html#", "org":
-					"http://www.w3.org/ns/org#" }, "id":
-					"https://leaf.bucknell.edu/sites/default/files/2023-07/suzette_ch110.xml?note_annotation_20231024104425495",
-					"type": "oa:Annotation", "dcterms:created": "2023-10-24T14:44:25.495Z",
-					"dcterms:modified": "2023-10-24T14:44:25.495Z", "dcterms:creator": { "@id":
-					"11", "@type": [ "cwrc:NaturalPerson", "schema:Person" ], "cwrc:hasName":
-					"Rebecca Heintzelman" }, "oa:motivatedBy": "oa:describing", "oa:hasTarget": {
-					"@id":
-					"https://leaf.bucknell.edu/sites/default/files/2023-07/suzette_ch110.xml?note_annotation_20231024104425495#Target",
-					"@type": "oa:SpecificResource", "oa:hasSource": { "@id":
-					"https://leaf.bucknell.edu/sites/default/files/2023-07/suzette_ch110.xml",
-					"@type": "dctypes:Text", "dc:format": "text/xml" }, "oa:renderedVia": { "@id":
-					"https://leaf.bucknell.edu", "@type": "as:Application", "rdfs:label":
-					"LEAF-Writer", "schema:softwareVersion": "3.2.2" }, "oa:hasSelector": { "@id":
-					"https://leaf.bucknell.edu/sites/default/files/2023-07/suzette_ch110.xml?note_annotation_20231024104425495#Selector",
-					"@type": "oa:XPathSelector", "rdf:value": "TEI/text/body/div/div/p[22]/note" }
-					}, "oa:hasBody": { "@type": "oa:TextualBody", "dc:format": "text/plain",
-					"rdf:value": "Lucratif. Qui\n produit un bon revenu." }, "as:generator": {
-					"@id": "https://leaf.bucknell.edu", "@type": "as:Application", "rdfs:label":
-					"LEAF-Writer", "schema:url": "https://leaf-writer.lincsproject.ca/",
-					"schema:softwareVersion": "3.2.2" } } </rdf:Description>
-				<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/"> { "@context": {
-					"dcterms:created": { "@type": "xsd:dateTime", "@id": "dcterms:created" },
-					"dcterms:issued": { "@type": "xsd:dateTime", "@id": "dcterms:issued" },
-					"oa:motivatedBy": { "@type": "oa:Motivation" }, "@language": "en", "rdf":
-					"http://www.w3.org/1999/02/22-rdf-syntax-ns#", "rdfs":
-					"http://www.w3.org/2000/01/rdf-schema#", "as":
-					"http://www.w3.org/ns/activitystreams#", "cwrc":
-					"http://sparql.cwrc.ca/ontologies/cwrc#", "dc":
-					"http://purl.org/dc/elements/1.1/", "dcterms": "http://purl.org/dc/terms/",
-					"foaf": "http://xmlns.com/foaf/0.1/", "geo":
-					"http://www.geonames.org/ontology#", "oa": "http://www.w3.org/ns/oa#", "schema":
-					"http://schema.org/", "xsd": "http://www.w3.org/2001/XMLSchema#", "fabio":
-					"https://purl.org/spar/fabio#", "bf": "http://www.openlinksw.com/schemas/bif#",
-					"cito": "https://sparontologies.github.io/cito/current/cito.html#", "org":
-					"http://www.w3.org/ns/org#" }, "id":
-					"https://leaf.bucknell.edu/sites/default/files/2023-07/suzette_ch110.xml?place_annotation_20231024104639865",
-					"type": "oa:Annotation", "dcterms:created": "2023-10-24T14:46:39.865Z",
-					"dcterms:creator": { "@id": "11", "@type": [ "cwrc:NaturalPerson",
-					"schema:Person" ], "cwrc:hasName": "Rebecca Heintzelman" }, "oa:motivatedBy":
-					"oa:identifying", "oa:hasTarget": { "@id":
-					"https://leaf.bucknell.edu/sites/default/files/2023-07/suzette_ch110.xml?place_annotation_20231024104639865#Target",
-					"@type": "oa:SpecificResource", "oa:hasSource": { "@id":
-					"https://leaf.bucknell.edu/sites/default/files/2023-07/suzette_ch110.xml",
-					"@type": "dctypes:Text", "dc:format": "text/xml" }, "oa:renderedVia": { "@id":
-					"https://leaf.bucknell.edu", "@type": "as:Application", "rdfs:label":
-					"LEAF-Writer", "schema:softwareVersion": "3.2.2" }, "oa:hasSelector": { "@id":
-					"https://leaf.bucknell.edu/sites/default/files/2023-07/suzette_ch110.xml?place_annotation_20231024104639865#Selector",
-					"@type": "oa:XPathSelector", "rdf:value":
-					"TEI/text/body/div/div/p[20]/placeName" } }, "oa:hasBody": { "@type":
-					"cwrc:RealPlace", "@id": "http://www.wikidata.org/entity/Q142", "dc:format":
-					"text/plain" }, "as:generator": { "@id": "https://leaf.bucknell.edu", "@type":
-					"as:Application", "rdfs:label": "LEAF-Writer", "schema:url":
-					"https://leaf-writer.lincsproject.ca/", "schema:softwareVersion": "3.2.2" } } </rdf:Description>
-				<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/"> { "@context": {
-					"dcterms:created": { "@type": "xsd:dateTime", "@id": "dcterms:created" },
-					"dcterms:issued": { "@type": "xsd:dateTime", "@id": "dcterms:issued" },
-					"oa:motivatedBy": { "@type": "oa:Motivation" }, "@language": "en", "rdf":
-					"http://www.w3.org/1999/02/22-rdf-syntax-ns#", "rdfs":
-					"http://www.w3.org/2000/01/rdf-schema#", "as":
-					"http://www.w3.org/ns/activitystreams#", "cwrc":
-					"http://sparql.cwrc.ca/ontologies/cwrc#", "dc":
-					"http://purl.org/dc/elements/1.1/", "dcterms": "http://purl.org/dc/terms/",
-					"foaf": "http://xmlns.com/foaf/0.1/", "geo":
-					"http://www.geonames.org/ontology#", "oa": "http://www.w3.org/ns/oa#", "schema":
-					"http://schema.org/", "xsd": "http://www.w3.org/2001/XMLSchema#", "fabio":
-					"https://purl.org/spar/fabio#", "bf": "http://www.openlinksw.com/schemas/bif#",
-					"cito": "https://sparontologies.github.io/cito/current/cito.html#", "org":
-					"http://www.w3.org/ns/org#" }, "id":
-					"https://leaf.bucknell.edu/sites/default/files/2023-07/suzette_ch110.xml?place_annotation_20231024104852595",
-					"type": "oa:Annotation", "dcterms:created": "2023-10-24T14:48:52.595Z",
-					"dcterms:creator": { "@id": "11", "@type": [ "cwrc:NaturalPerson",
-					"schema:Person" ], "cwrc:hasName": "Rebecca Heintzelman" }, "oa:motivatedBy":
-					"oa:identifying", "oa:hasTarget": { "@id":
-					"https://leaf.bucknell.edu/sites/default/files/2023-07/suzette_ch110.xml?place_annotation_20231024104852595#Target",
-					"@type": "oa:SpecificResource", "oa:hasSource": { "@id":
-					"https://leaf.bucknell.edu/sites/default/files/2023-07/suzette_ch110.xml",
-					"@type": "dctypes:Text", "dc:format": "text/xml" }, "oa:renderedVia": { "@id":
-					"https://leaf.bucknell.edu", "@type": "as:Application", "rdfs:label":
-					"LEAF-Writer", "schema:softwareVersion": "3.2.2" }, "oa:hasSelector": { "@id":
-					"https://leaf.bucknell.edu/sites/default/files/2023-07/suzette_ch110.xml?place_annotation_20231024104852595#Selector",
-					"@type": "oa:XPathSelector", "rdf:value":
-					"TEI/text/body/div/div[3]/div/div[2]/p[10]/placeName" } }, "oa:hasBody": {
-					"@type": "cwrc:RealPlace", "@id": "http://www.wikidata.org/entity/Q474605",
-					"dc:format": "text/plain" }, "as:generator": { "@id":
-					"https://leaf.bucknell.edu", "@type": "as:Application", "rdfs:label":
-					"LEAF-Writer", "schema:url": "https://leaf-writer.lincsproject.ca/",
-					"schema:softwareVersion": "3.2.2" } } </rdf:Description>
-				<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/"> { "@context": {
-					"dcterms:created": { "@type": "xsd:dateTime", "@id": "dcterms:created" },
-					"dcterms:issued": { "@type": "xsd:dateTime", "@id": "dcterms:issued" },
-					"oa:motivatedBy": { "@type": "oa:Motivation" }, "@language": "en", "rdf":
-					"http://www.w3.org/1999/02/22-rdf-syntax-ns#", "rdfs":
-					"http://www.w3.org/2000/01/rdf-schema#", "as":
-					"http://www.w3.org/ns/activitystreams#", "cwrc":
-					"http://sparql.cwrc.ca/ontologies/cwrc#", "dc":
-					"http://purl.org/dc/elements/1.1/", "dcterms": "http://purl.org/dc/terms/",
-					"foaf": "http://xmlns.com/foaf/0.1/", "geo":
-					"http://www.geonames.org/ontology#", "oa": "http://www.w3.org/ns/oa#", "schema":
-					"http://schema.org/", "xsd": "http://www.w3.org/2001/XMLSchema#", "fabio":
-					"https://purl.org/spar/fabio#", "bf": "http://www.openlinksw.com/schemas/bif#",
-					"cito": "https://sparontologies.github.io/cito/current/cito.html#", "org":
-					"http://www.w3.org/ns/org#" }, "id":
-					"https://leaf.bucknell.edu/sites/default/files/2023-07/suzette_ch110.xml?place_annotation_20231024104907884",
-					"type": "oa:Annotation", "dcterms:created": "2023-10-24T14:49:07.884Z",
-					"dcterms:creator": { "@id": "11", "@type": [ "cwrc:NaturalPerson",
-					"schema:Person" ], "cwrc:hasName": "Rebecca Heintzelman" }, "oa:motivatedBy":
-					"oa:identifying", "oa:hasTarget": { "@id":
-					"https://leaf.bucknell.edu/sites/default/files/2023-07/suzette_ch110.xml?place_annotation_20231024104907884#Target",
-					"@type": "oa:SpecificResource", "oa:hasSource": { "@id":
-					"https://leaf.bucknell.edu/sites/default/files/2023-07/suzette_ch110.xml",
-					"@type": "dctypes:Text", "dc:format": "text/xml" }, "oa:renderedVia": { "@id":
-					"https://leaf.bucknell.edu", "@type": "as:Application", "rdfs:label":
-					"LEAF-Writer", "schema:softwareVersion": "3.2.2" }, "oa:hasSelector": { "@id":
-					"https://leaf.bucknell.edu/sites/default/files/2023-07/suzette_ch110.xml?place_annotation_20231024104907884#Selector",
-					"@type": "oa:XPathSelector", "rdf:value":
-					"TEI/text/body/div/div[3]/div/div[2]/p[10]/placeName[2]" } }, "oa:hasBody": {
-					"@type": "cwrc:RealPlace", "@id": "http://www.wikidata.org/entity/Q21",
-					"dc:format": "text/plain" }, "as:generator": { "@id":
-					"https://leaf.bucknell.edu", "@type": "as:Application", "rdfs:label":
-					"LEAF-Writer", "schema:url": "https://leaf-writer.lincsproject.ca/",
-					"schema:softwareVersion": "3.2.2" } } </rdf:Description>
-				<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/"> { "@context": {
-					"dcterms:created": { "@type": "xsd:dateTime", "@id": "dcterms:created" },
-					"dcterms:issued": { "@type": "xsd:dateTime", "@id": "dcterms:issued" },
-					"oa:motivatedBy": { "@type": "oa:Motivation" }, "@language": "en", "rdf":
-					"http://www.w3.org/1999/02/22-rdf-syntax-ns#", "rdfs":
-					"http://www.w3.org/2000/01/rdf-schema#", "as":
-					"http://www.w3.org/ns/activitystreams#", "cwrc":
-					"http://sparql.cwrc.ca/ontologies/cwrc#", "dc":
-					"http://purl.org/dc/elements/1.1/", "dcterms": "http://purl.org/dc/terms/",
-					"foaf": "http://xmlns.com/foaf/0.1/", "geo":
-					"http://www.geonames.org/ontology#", "oa": "http://www.w3.org/ns/oa#", "schema":
-					"http://schema.org/", "xsd": "http://www.w3.org/2001/XMLSchema#", "fabio":
-					"https://purl.org/spar/fabio#", "bf": "http://www.openlinksw.com/schemas/bif#",
-					"cito": "https://sparontologies.github.io/cito/current/cito.html#", "org":
-					"http://www.w3.org/ns/org#" }, "id":
-					"https://leaf.bucknell.edu/sites/default/files/2023-07/suzette_ch110.xml?place_annotation_20231024104929644",
-					"type": "oa:Annotation", "dcterms:created": "2023-10-24T14:49:29.644Z",
-					"dcterms:creator": { "@id": "11", "@type": [ "cwrc:NaturalPerson",
-					"schema:Person" ], "cwrc:hasName": "Rebecca Heintzelman" }, "oa:motivatedBy":
-					"oa:identifying", "oa:hasTarget": { "@id":
-					"https://leaf.bucknell.edu/sites/default/files/2023-07/suzette_ch110.xml?place_annotation_20231024104929644#Target",
-					"@type": "oa:SpecificResource", "oa:hasSource": { "@id":
-					"https://leaf.bucknell.edu/sites/default/files/2023-07/suzette_ch110.xml",
-					"@type": "dctypes:Text", "dc:format": "text/xml" }, "oa:renderedVia": { "@id":
-					"https://leaf.bucknell.edu", "@type": "as:Application", "rdfs:label":
-					"LEAF-Writer", "schema:softwareVersion": "3.2.2" }, "oa:hasSelector": { "@id":
-					"https://leaf.bucknell.edu/sites/default/files/2023-07/suzette_ch110.xml?place_annotation_20231024104929644#Selector",
-					"@type": "oa:XPathSelector", "rdf:value":
-					"TEI/text/body/div/div[3]/div/div[2]/p[10]/placeName[3]" } }, "oa:hasBody": {
-					"@type": "cwrc:RealPlace", "@id": "http://www.wikidata.org/entity/Q34001",
-					"dc:format": "text/plain" }, "as:generator": { "@id":
-					"https://leaf.bucknell.edu", "@type": "as:Application", "rdfs:label":
-					"LEAF-Writer", "schema:url": "https://leaf-writer.lincsproject.ca/",
-					"schema:softwareVersion": "3.2.2" } } </rdf:Description>
-				<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/"> { "@context": {
-					"dcterms:created": { "@type": "xsd:dateTime", "@id": "dcterms:created" },
-					"dcterms:issued": { "@type": "xsd:dateTime", "@id": "dcterms:issued" },
-					"oa:motivatedBy": { "@type": "oa:Motivation" }, "@language": "en", "rdf":
-					"http://www.w3.org/1999/02/22-rdf-syntax-ns#", "rdfs":
-					"http://www.w3.org/2000/01/rdf-schema#", "as":
-					"http://www.w3.org/ns/activitystreams#", "cwrc":
-					"http://sparql.cwrc.ca/ontologies/cwrc#", "dc":
-					"http://purl.org/dc/elements/1.1/", "dcterms": "http://purl.org/dc/terms/",
-					"foaf": "http://xmlns.com/foaf/0.1/", "geo":
-					"http://www.geonames.org/ontology#", "oa": "http://www.w3.org/ns/oa#", "schema":
-					"http://schema.org/", "xsd": "http://www.w3.org/2001/XMLSchema#", "fabio":
-					"https://purl.org/spar/fabio#", "bf": "http://www.openlinksw.com/schemas/bif#",
-					"cito": "https://sparontologies.github.io/cito/current/cito.html#", "org":
-					"http://www.w3.org/ns/org#" }, "id":
-					"https://leaf.bucknell.edu/sites/default/files/2023-07/suzette_ch110.xml?place_annotation_20231024104940300",
-					"type": "oa:Annotation", "dcterms:created": "2023-10-24T14:49:40.300Z",
-					"dcterms:creator": { "@id": "11", "@type": [ "cwrc:NaturalPerson",
-					"schema:Person" ], "cwrc:hasName": "Rebecca Heintzelman" }, "oa:motivatedBy":
-					"oa:identifying", "oa:hasTarget": { "@id":
-					"https://leaf.bucknell.edu/sites/default/files/2023-07/suzette_ch110.xml?place_annotation_20231024104940300#Target",
-					"@type": "oa:SpecificResource", "oa:hasSource": { "@id":
-					"https://leaf.bucknell.edu/sites/default/files/2023-07/suzette_ch110.xml",
-					"@type": "dctypes:Text", "dc:format": "text/xml" }, "oa:renderedVia": { "@id":
-					"https://leaf.bucknell.edu", "@type": "as:Application", "rdfs:label":
-					"LEAF-Writer", "schema:softwareVersion": "3.2.2" }, "oa:hasSelector": { "@id":
-					"https://leaf.bucknell.edu/sites/default/files/2023-07/suzette_ch110.xml?place_annotation_20231024104940300#Selector",
-					"@type": "oa:XPathSelector", "rdf:value":
-					"TEI/text/body/div/div[3]/div/div[2]/p[10]/placeName[4]" } }, "oa:hasBody": {
-					"@type": "cwrc:RealPlace", "@id": "http://www.wikidata.org/entity/Q1289",
-					"dc:format": "text/plain" }, "as:generator": { "@id":
-					"https://leaf.bucknell.edu", "@type": "as:Application", "rdfs:label":
-					"LEAF-Writer", "schema:url": "https://leaf-writer.lincsproject.ca/",
-					"schema:softwareVersion": "3.2.2" } } </rdf:Description>
-				<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/"> { "@context": {
-					"dcterms:created": { "@type": "xsd:dateTime", "@id": "dcterms:created" },
-					"dcterms:issued": { "@type": "xsd:dateTime", "@id": "dcterms:issued" },
-					"oa:motivatedBy": { "@type": "oa:Motivation" }, "@language": "en", "rdf":
-					"http://www.w3.org/1999/02/22-rdf-syntax-ns#", "rdfs":
-					"http://www.w3.org/2000/01/rdf-schema#", "as":
-					"http://www.w3.org/ns/activitystreams#", "cwrc":
-					"http://sparql.cwrc.ca/ontologies/cwrc#", "dc":
-					"http://purl.org/dc/elements/1.1/", "dcterms": "http://purl.org/dc/terms/",
-					"foaf": "http://xmlns.com/foaf/0.1/", "geo":
-					"http://www.geonames.org/ontology#", "oa": "http://www.w3.org/ns/oa#", "schema":
-					"http://schema.org/", "xsd": "http://www.w3.org/2001/XMLSchema#", "fabio":
-					"https://purl.org/spar/fabio#", "bf": "http://www.openlinksw.com/schemas/bif#",
-					"cito": "https://sparontologies.github.io/cito/current/cito.html#", "org":
-					"http://www.w3.org/ns/org#" }, "id":
-					"https://leaf.bucknell.edu/sites/default/files/2023-07/suzette_ch110.xml?place_annotation_20231024104951973",
-					"type": "oa:Annotation", "dcterms:created": "2023-10-24T14:49:51.973Z",
-					"dcterms:creator": { "@id": "11", "@type": [ "cwrc:NaturalPerson",
-					"schema:Person" ], "cwrc:hasName": "Rebecca Heintzelman" }, "oa:motivatedBy":
-					"oa:identifying", "oa:hasTarget": { "@id":
-					"https://leaf.bucknell.edu/sites/default/files/2023-07/suzette_ch110.xml?place_annotation_20231024104951973#Target",
-					"@type": "oa:SpecificResource", "oa:hasSource": { "@id":
-					"https://leaf.bucknell.edu/sites/default/files/2023-07/suzette_ch110.xml",
-					"@type": "dctypes:Text", "dc:format": "text/xml" }, "oa:renderedVia": { "@id":
-					"https://leaf.bucknell.edu", "@type": "as:Application", "rdfs:label":
-					"LEAF-Writer", "schema:softwareVersion": "3.2.2" }, "oa:hasSelector": { "@id":
-					"https://leaf.bucknell.edu/sites/default/files/2023-07/suzette_ch110.xml?place_annotation_20231024104951973#Selector",
-					"@type": "oa:XPathSelector", "rdf:value":
-					"TEI/text/body/div/div[3]/div/div[2]/p[10]/placeName[5]" } }, "oa:hasBody": {
-					"@type": "cwrc:RealPlace", "@id": "http://www.wikidata.org/entity/Q26849",
-					"dc:format": "text/plain" }, "as:generator": { "@id":
-					"https://leaf.bucknell.edu", "@type": "as:Application", "rdfs:label":
-					"LEAF-Writer", "schema:url": "https://leaf-writer.lincsproject.ca/",
-					"schema:softwareVersion": "3.2.2" } } </rdf:Description>
-				<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/"> { "@context": {
-					"dcterms:created": { "@type": "xsd:dateTime", "@id": "dcterms:created" },
-					"dcterms:issued": { "@type": "xsd:dateTime", "@id": "dcterms:issued" },
-					"oa:motivatedBy": { "@type": "oa:Motivation" }, "@language": "en", "rdf":
-					"http://www.w3.org/1999/02/22-rdf-syntax-ns#", "rdfs":
-					"http://www.w3.org/2000/01/rdf-schema#", "as":
-					"http://www.w3.org/ns/activitystreams#", "cwrc":
-					"http://sparql.cwrc.ca/ontologies/cwrc#", "dc":
-					"http://purl.org/dc/elements/1.1/", "dcterms": "http://purl.org/dc/terms/",
-					"foaf": "http://xmlns.com/foaf/0.1/", "geo":
-					"http://www.geonames.org/ontology#", "oa": "http://www.w3.org/ns/oa#", "schema":
-					"http://schema.org/", "xsd": "http://www.w3.org/2001/XMLSchema#", "fabio":
-					"https://purl.org/spar/fabio#", "bf": "http://www.openlinksw.com/schemas/bif#",
-					"cito": "https://sparontologies.github.io/cito/current/cito.html#", "org":
-					"http://www.w3.org/ns/org#" }, "id":
-					"https://leaf.bucknell.edu/sites/default/files/2023-07/suzette_ch110.xml?place_annotation_20231024105002788",
-					"type": "oa:Annotation", "dcterms:created": "2023-10-24T14:50:02.788Z",
-					"dcterms:creator": { "@id": "11", "@type": [ "cwrc:NaturalPerson",
-					"schema:Person" ], "cwrc:hasName": "Rebecca Heintzelman" }, "oa:motivatedBy":
-					"oa:identifying", "oa:hasTarget": { "@id":
-					"https://leaf.bucknell.edu/sites/default/files/2023-07/suzette_ch110.xml?place_annotation_20231024105002788#Target",
-					"@type": "oa:SpecificResource", "oa:hasSource": { "@id":
-					"https://leaf.bucknell.edu/sites/default/files/2023-07/suzette_ch110.xml",
-					"@type": "dctypes:Text", "dc:format": "text/xml" }, "oa:renderedVia": { "@id":
-					"https://leaf.bucknell.edu", "@type": "as:Application", "rdfs:label":
-					"LEAF-Writer", "schema:softwareVersion": "3.2.2" }, "oa:hasSelector": { "@id":
-					"https://leaf.bucknell.edu/sites/default/files/2023-07/suzette_ch110.xml?place_annotation_20231024105002788#Selector",
-					"@type": "oa:XPathSelector", "rdf:value":
-					"TEI/text/body/div/div[3]/div/div[2]/p[10]/placeName[6]" } }, "oa:hasBody": {
-					"@type": "cwrc:RealPlace", "@id": "http://www.wikidata.org/entity/Q12559",
-					"dc:format": "text/plain" }, "as:generator": { "@id":
-					"https://leaf.bucknell.edu", "@type": "as:Application", "rdfs:label":
-					"LEAF-Writer", "schema:url": "https://leaf-writer.lincsproject.ca/",
-					"schema:softwareVersion": "3.2.2" } } </rdf:Description>
-			</rdf:RDF></xenoData>
 		<profileDesc>
 			<langUsage>
 				<language ident="fr">French</language>
@@ -481,7 +96,8 @@
 						monsieur, grand, maigre, portait un haut chapeau sur ses cheveux blancs, et
 						un tablier bleu, à bavette, sur son vêtement noir.</p>
 					<p>Il s'interrompit pour inviter les arrivants à entrer.</p>
-					<p>Sans doute, à cause du douar, Pascal entra le premier ; la famille suivit.</p>
+					<p>Sans doute, à cause du douar, Pascal entra le premier ; la famille
+						suivit.</p>
 					<p>Le monsieur les mit aussitôt au fait en leur disant : </p>
 					<p>— Il s'agit d'apiculture, de culture des abeilles.</p>
 					<figure>
@@ -495,11 +111,10 @@
 					<p>Et montrant les maisonnettes : </p>
 					<p>— Vous voyez le rucher. J'étais en train de demander si, parmi les personnes
 						qui m'écoutent, il y a un habitant, une habitante de la campagne.</p>
-					<p>On ne répondit pas ; mais Pascal, Louis, Marthe
-						regardèrent Suzette qui
+					<p>On ne répondit pas ; mais Pascal, Louis, Marthe regardèrent Suzette qui
 						toussa, légèrement embarrassée.</p>
-					<p>Le monsieur la regarda aussi, et Mme Richard, prenant la parole, dit que mademoiselle, sa
-						nièce, était fermière à Fragicourt.</p>
+					<p>Le monsieur la regarda aussi, et Mme Richard, prenant la parole, dit que
+						mademoiselle, sa nièce, était fermière à Fragicourt.</p>
 					<p>— Mademoiselle est fermière !</p>
 					<pb type="page" n="388"
 						facs="https://raw.githubusercontent.com/BucknellDSC/suzette/master/images/page_images/Suzette_388.jpg"/>
@@ -538,8 +153,8 @@
 						<caption>Pattes d'une abeille. Brosses (1) et corbeilles (2) dans les
 							quelles l'abeille emmagasine le pollen.</caption>
 					</figure>
-					<p>Toute cette brusquerie ne déplut pas à Mlle Suzette, qui, quoique un peu gênée, voyait bien
-						d'où elle partait.</p>
+					<p>Toute cette brusquerie ne déplut pas à Mlle Suzette, qui, quoique un peu
+						gênée, voyait bien d'où elle partait.</p>
 					<p>Elle répondit : </p>
 					<p>Monsieur, j'écoute, et je regarde.</p>
 				</div>

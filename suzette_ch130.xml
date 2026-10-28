@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/BucknellDSC/suzette/master/CSS/suzette_cwrc.css"?>
 <?xml-model href="https://raw.githubusercontent.com/BucknellDSC/suzette/refs/heads/master/out/suzette.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -71,114 +71,6 @@
             </biblStruct>
          </sourceDesc>
       </fileDesc>
-      <xenoData><rdf:RDF xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-            xmlns:as="http://www.w3.org/ns/activitystreams#"
-            xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#"
-            xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/"
-            xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#"
-            xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/"
-            xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#"
-            xmlns:bf="http://www.openlinksw.com/schemas/bif#"
-            xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#"
-            xmlns:org="http://www.w3.org/ns/org#">
-            <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/"> { "@context": {
-               "dcterms:created": { "@type": "xsd:dateTime", "@id": "dcterms:created" },
-               "dcterms:issued": { "@type": "xsd:dateTime", "@id": "dcterms:issued" },
-               "oa:motivatedBy": { "@type": "oa:Motivation" }, "@language": "en", "rdf":
-               "http://www.w3.org/1999/02/22-rdf-syntax-ns#", "rdfs":
-               "http://www.w3.org/2000/01/rdf-schema#", "as":
-               "http://www.w3.org/ns/activitystreams#", "cwrc":
-               "http://sparql.cwrc.ca/ontologies/cwrc#", "dc": "http://purl.org/dc/elements/1.1/",
-               "dcterms": "http://purl.org/dc/terms/", "foaf": "http://xmlns.com/foaf/0.1/", "geo":
-               "http://www.geonames.org/ontology#", "oa": "http://www.w3.org/ns/oa#", "schema":
-               "http://schema.org/", "xsd": "http://www.w3.org/2001/XMLSchema#", "fabio":
-               "https://purl.org/spar/fabio#", "bf": "http://www.openlinksw.com/schemas/bif#",
-               "cito": "https://sparontologies.github.io/cito/current/cito.html#", "org":
-               "http://www.w3.org/ns/org#" }, "id":
-               "https://leaf.bucknell.edu/sites/default/files/2023-07/suzette_ch130.xml?note_annotation_20231018102704572",
-               "type": "oa:Annotation", "dcterms:created": "2023-10-18T14:27:04.572Z",
-               "dcterms:modified": "2023-10-18T14:27:04.572Z", "dcterms:creator": { "@id": "5",
-               "@type": [ "cwrc:NaturalPerson", "schema:Person" ], "cwrc:hasName": "John Westbrook"
-               }, "oa:motivatedBy": "oa:describing", "oa:hasTarget": { "@id":
-               "https://leaf.bucknell.edu/sites/default/files/2023-07/suzette_ch130.xml?note_annotation_20231018102704572#Target",
-               "@type": "oa:SpecificResource", "oa:hasSource": { "@id":
-               "https://leaf.bucknell.edu/sites/default/files/2023-07/suzette_ch130.xml", "@type":
-               "dctypes:Text", "dc:format": "text/xml" }, "oa:renderedVia": { "@id":
-               "https://leaf.bucknell.edu", "@type": "as:Application", "rdfs:label": "LEAF-Writer",
-               "schema:softwareVersion": "3.2.2" }, "oa:hasSelector": { "@id":
-               "https://leaf.bucknell.edu/sites/default/files/2023-07/suzette_ch130.xml?note_annotation_20231018102704572#Selector",
-               "@type": "oa:XPathSelector", "rdf:value": "TEI/text/body/div/div/p[3]/note" } },
-               "oa:hasBody": { "@type": "oa:TextualBody", "dc:format": "text/plain", "rdf:value":
-               "Salutaire. Utile, avantageux pour la\n conservation de la vie." }, "as:generator": {
-               "@id": "https://leaf.bucknell.edu", "@type": "as:Application", "rdfs:label":
-               "LEAF-Writer", "schema:url": "https://leaf-writer.lincsproject.ca/",
-               "schema:softwareVersion": "3.2.2" } } </rdf:Description>
-            <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/"> { "@context": {
-               "dcterms:created": { "@type": "xsd:dateTime", "@id": "dcterms:created" },
-               "dcterms:issued": { "@type": "xsd:dateTime", "@id": "dcterms:issued" },
-               "oa:motivatedBy": { "@type": "oa:Motivation" }, "@language": "en", "rdf":
-               "http://www.w3.org/1999/02/22-rdf-syntax-ns#", "rdfs":
-               "http://www.w3.org/2000/01/rdf-schema#", "as":
-               "http://www.w3.org/ns/activitystreams#", "cwrc":
-               "http://sparql.cwrc.ca/ontologies/cwrc#", "dc": "http://purl.org/dc/elements/1.1/",
-               "dcterms": "http://purl.org/dc/terms/", "foaf": "http://xmlns.com/foaf/0.1/", "geo":
-               "http://www.geonames.org/ontology#", "oa": "http://www.w3.org/ns/oa#", "schema":
-               "http://schema.org/", "xsd": "http://www.w3.org/2001/XMLSchema#", "fabio":
-               "https://purl.org/spar/fabio#", "bf": "http://www.openlinksw.com/schemas/bif#",
-               "cito": "https://sparontologies.github.io/cito/current/cito.html#", "org":
-               "http://www.w3.org/ns/org#" }, "id":
-               "https://leaf.bucknell.edu/sites/default/files/2023-07/suzette_ch130.xml?note_annotation_20231018102704574",
-               "type": "oa:Annotation", "dcterms:created": "2023-10-18T14:27:04.574Z",
-               "dcterms:modified": "2023-10-18T14:27:04.574Z", "dcterms:creator": { "@id": "5",
-               "@type": [ "cwrc:NaturalPerson", "schema:Person" ], "cwrc:hasName": "John Westbrook"
-               }, "oa:motivatedBy": "oa:describing", "oa:hasTarget": { "@id":
-               "https://leaf.bucknell.edu/sites/default/files/2023-07/suzette_ch130.xml?note_annotation_20231018102704574#Target",
-               "@type": "oa:SpecificResource", "oa:hasSource": { "@id":
-               "https://leaf.bucknell.edu/sites/default/files/2023-07/suzette_ch130.xml", "@type":
-               "dctypes:Text", "dc:format": "text/xml" }, "oa:renderedVia": { "@id":
-               "https://leaf.bucknell.edu", "@type": "as:Application", "rdfs:label": "LEAF-Writer",
-               "schema:softwareVersion": "3.2.2" }, "oa:hasSelector": { "@id":
-               "https://leaf.bucknell.edu/sites/default/files/2023-07/suzette_ch130.xml?note_annotation_20231018102704574#Selector",
-               "@type": "oa:XPathSelector", "rdf:value": "TEI/text/body/div/div/p[12]/note" } },
-               "oa:hasBody": { "@type": "oa:TextualBody", "dc:format": "text/plain", "rdf:value":
-               "Bassiner. Laver avec une linge mouillé." }, "as:generator": { "@id":
-               "https://leaf.bucknell.edu", "@type": "as:Application", "rdfs:label": "LEAF-Writer",
-               "schema:url": "https://leaf-writer.lincsproject.ca/", "schema:softwareVersion":
-               "3.2.2" } } </rdf:Description>
-            <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/"> { "@context": {
-               "dcterms:created": { "@type": "xsd:dateTime", "@id": "dcterms:created" },
-               "dcterms:issued": { "@type": "xsd:dateTime", "@id": "dcterms:issued" },
-               "oa:motivatedBy": { "@type": "oa:Motivation" }, "@language": "en", "rdf":
-               "http://www.w3.org/1999/02/22-rdf-syntax-ns#", "rdfs":
-               "http://www.w3.org/2000/01/rdf-schema#", "as":
-               "http://www.w3.org/ns/activitystreams#", "cwrc":
-               "http://sparql.cwrc.ca/ontologies/cwrc#", "dc": "http://purl.org/dc/elements/1.1/",
-               "dcterms": "http://purl.org/dc/terms/", "foaf": "http://xmlns.com/foaf/0.1/", "geo":
-               "http://www.geonames.org/ontology#", "oa": "http://www.w3.org/ns/oa#", "schema":
-               "http://schema.org/", "xsd": "http://www.w3.org/2001/XMLSchema#", "fabio":
-               "https://purl.org/spar/fabio#", "bf": "http://www.openlinksw.com/schemas/bif#",
-               "cito": "https://sparontologies.github.io/cito/current/cito.html#", "org":
-               "http://www.w3.org/ns/org#" }, "id":
-               "https://leaf.bucknell.edu/sites/default/files/2023-07/suzette_ch130.xml?place_annotation_20231018102753849",
-               "type": "oa:Annotation", "dcterms:created": "2023-10-18T14:27:53.849Z",
-               "dcterms:creator": { "@id": "5", "@type": [ "cwrc:NaturalPerson", "schema:Person" ],
-               "cwrc:hasName": "John Westbrook" }, "oa:motivatedBy": "oa:identifying",
-               "oa:hasTarget": { "@id":
-               "https://leaf.bucknell.edu/sites/default/files/2023-07/suzette_ch130.xml?place_annotation_20231018102753849#Target",
-               "@type": "oa:SpecificResource", "oa:hasSource": { "@id":
-               "https://leaf.bucknell.edu/sites/default/files/2023-07/suzette_ch130.xml", "@type":
-               "dctypes:Text", "dc:format": "text/xml" }, "oa:renderedVia": { "@id":
-               "https://leaf.bucknell.edu", "@type": "as:Application", "rdfs:label": "LEAF-Writer",
-               "schema:softwareVersion": "3.2.2" }, "oa:hasSelector": { "@id":
-               "https://leaf.bucknell.edu/sites/default/files/2023-07/suzette_ch130.xml?place_annotation_20231018102753849#Selector",
-               "@type": "oa:XPathSelector", "rdf:value":
-               "TEI/text/body/div/div[3]/div[2]/div[2]/p/placeName" } }, "oa:hasBody": { "@type":
-               "cwrc:RealPlace", "@id": "http://www.wikidata.org/entity/Q218272", "dc:format":
-               "text/plain" }, "as:generator": { "@id": "https://leaf.bucknell.edu", "@type":
-               "as:Application", "rdfs:label": "LEAF-Writer", "schema:url":
-               "https://leaf-writer.lincsproject.ca/", "schema:softwareVersion": "3.2.2" } }
-            </rdf:Description>
-         </rdf:RDF></xenoData>
       <profileDesc>
          <langUsage>
             <language ident="fr">French</language>
@@ -193,9 +85,8 @@
                facs="https://raw.githubusercontent.com/BucknellDSC/suzette/master/images/page_images/Suzette_456.jpg"/>
             <head>130. — Terrible scène. </head>
             <div type="récit">
-               <p>Suzette, qui s'était contenue
-                  pendant cette lecture, se leva vivement quand elle fut finie et jetant un petit
-                  châle sur ses épaules : </p>
+               <p>Suzette, qui s'était contenue pendant cette lecture, se leva vivement quand elle
+                  fut finie et jetant un petit châle sur ses épaules : </p>
                <p>— Viens avec moi, dit-elle à Charlot, qui, comprenant, la suivit en silence.</p>
                <p>Ils se mirent à parcourir Fragicourt. Le village comptait près de deux cent
                   cinquante maisons, dont quinze portaient enseigne. Les belles plaines onduleuses
@@ -228,45 +119,43 @@
                         les vapeurs qui s'élèvent de la marmite, traversent le serpentin qui est
                         plongé dans un vase rempli d'eau froide ; elles s'y refroidissent pour
                         passer ensuite à l'état liquide.</caption>
-                  </figure> honteuse, le cœur déchiré, la pauvre Suzette fait comme elles. De fenêtre en fenêtre, elle
-                  glisse le long des cabarets ; Charlot, qui l'accompagne, y fait un pas sur le seuil pour tâcher
-                  de voir dans la fumée des pipes.</p>
+                  </figure> honteuse, le cœur déchiré, la pauvre Suzette fait comme elles. De
+                  fenêtre en fenêtre, elle glisse le long des cabarets ; Charlot, qui l'accompagne,
+                  y fait un pas sur le seuil pour tâcher de voir dans la fumée des pipes.</p>
                <p>Il a le cœur gros aussi, le brave enfant. Il essaie rassurer sa sœur. Dans leur
                   triste promenade, ils passent devant le cimetière.</p>
-               <p>Charles, lui dit doucement
-                     Suzette dans un sanglot, si la
-                  pauvre maman nous voit, nous entend, elle doit bien pleurer ! </p>
+               <p>Charles, lui dit doucement Suzette dans un sanglot, si la pauvre maman nous voit,
+                  nous entend, elle doit bien pleurer ! </p>
                <p>Ils regagnaient la ferme, quand des cris : Au secours ! se font entendre du côté
                   de la maison de Ludivine.</p>
                <p>Ils y courent. Et là, quel spectacle ! La grande pièce. était jonchée de débris de
-                  vaisselle. De toute sa force, Vincent, furieux d'ivresse, horrible à voir, jetait les dernières
-                  assiettes dont l'une venait de frapper sa mère au front.</p>
-               <p>Le vieux père Benoît, Lisa s'efforçaient en vain de le contenir.
-                     Charlot, d'autres voisins
-                  accourus, purent enfin s'en rendre maîtres.</p>
-               <p>Ludivine repoussa Suzette qui voulait lui bassiner*<note
-                     type="annotation">Bassiner. Laver avec une linge mouillé.</note> le front avec
-                  de l'eau et parlait d'arnica.</p>
+                  vaisselle. De toute sa force, Vincent, furieux d'ivresse, horrible à voir, jetait
+                  les dernières assiettes dont l'une venait de frapper sa mère au front.</p>
+               <p>Le vieux père Benoît, Lisa s'efforçaient en vain de le contenir. Charlot, d'autres
+                  voisins accourus, purent enfin s'en rendre maîtres.</p>
+               <p>Ludivine repoussa Suzette qui voulait lui bassiner*<note type="annotation"
+                     >Bassiner. Laver avec une linge mouillé.</note> le front avec de l'eau et
+                  parlait d'arnica.</p>
                <fw type="footer">SUZETTE (Maitresse). <fw type="sig">26</fw></fw>
                <pb type="page" n="458"
                   facs="https://raw.githubusercontent.com/BucknellDSC/suzette/master/images/page_images/Suzette_458.jpg"/>
                <fw>458 SUZETTE.</fw>
                <p>— Va, j'ai mieux que ça, merci, dit-elle aigrement. Pars avec ton frère qui a
-                  emmené mon Vincent aux Trois
-                  Agaces ! </p>
-               <p>Les pupilles dilatées, paraissant ne rien voir, François s'accotait au mur. Sans répondre à Ludivine, Suzette le prit par un bras ; Charlot le prit par l'autre et ils sortirent.</p>
-               <p>A la maison non plus, il n'y eut pas une parole d'échangée. Le visage de François semblait changé en pierre.
-                  Sans chapeau, — il l'avait perdu en route — les cheveux collés aux tempes, les
-                  vêtements en désordre il donnait un spectacle navrant.</p>
-               <p>Charlot le mit au lit et, après
-                  un quart d'heure, revint dire à Suzette, qui s'apprêtait à veiller : </p>
+                  emmené mon Vincent aux Trois Agaces ! </p>
+               <p>Les pupilles dilatées, paraissant ne rien voir, François s'accotait au mur. Sans
+                  répondre à Ludivine, Suzette le prit par un bras ; Charlot le prit par l'autre et
+                  ils sortirent.</p>
+               <p>A la maison non plus, il n'y eut pas une parole d'échangée. Le visage de François
+                  semblait changé en pierre. Sans chapeau, — il l'avait perdu en route — les cheveux
+                  collés aux tempes, les vêtements en désordre il donnait un spectacle navrant.</p>
+               <p>Charlot le mit au lit et, après un quart d'heure, revint dire à Suzette, qui
+                  s'apprêtait à veiller : </p>
                <p>— Il dort. Tu peux aller te reposer.</p>
             </div>
             <div type="questionnaire">
                <head>Questionnaire.</head>
                <list>
-                  <item>— Que fit et dit Suzette,
-                     une fois la lecture achevée ? </item>
+                  <item>— Que fit et dit Suzette, une fois la lecture achevée ? </item>
                   <item>— Quel aspect présentait le village ? </item>
                   <item>— Comment les tisseurs de Fragicourt employaient-ils la journée du dimanche
                      ? </item>
@@ -275,9 +164,7 @@
                   <item>— Quelle pensée vint à leur cœur en passant près du cimetière ? </item>
                   <item>— Que virent-ils en passant devant la maison de Ludivine ? </item>
                   <item>— Qui s'efforçait de contenir Vincent ? </item>
-                  <item>— Que répondit Ludivine à
-                        Suzette lui proposant de la
-                     panser ? </item>
+                  <item>— Que répondit Ludivine à Suzette lui proposant de la panser ? </item>
                   <item>— Dans quel état ramena-t-on François à la maison ? </item>
                </list>
             </div>

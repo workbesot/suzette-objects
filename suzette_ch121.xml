@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/BucknellDSC/suzette/master/CSS/suzette_cwrc.css"?>
 <?xml-model href="https://raw.githubusercontent.com/BucknellDSC/suzette/refs/heads/master/out/suzette.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -71,81 +71,6 @@
             </biblStruct>
          </sourceDesc>
       </fileDesc>
-      <xenoData><rdf:RDF xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-            xmlns:as="http://www.w3.org/ns/activitystreams#"
-            xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#"
-            xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/"
-            xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#"
-            xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/"
-            xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#"
-            xmlns:bf="http://www.openlinksw.com/schemas/bif#"
-            xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#"
-            xmlns:org="http://www.w3.org/ns/org#">
-            <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/"> { "@context": {
-               "dcterms:created": { "@type": "xsd:dateTime", "@id": "dcterms:created" },
-               "dcterms:issued": { "@type": "xsd:dateTime", "@id": "dcterms:issued" },
-               "oa:motivatedBy": { "@type": "oa:Motivation" }, "@language": "en", "rdf":
-               "http://www.w3.org/1999/02/22-rdf-syntax-ns#", "rdfs":
-               "http://www.w3.org/2000/01/rdf-schema#", "as":
-               "http://www.w3.org/ns/activitystreams#", "cwrc":
-               "http://sparql.cwrc.ca/ontologies/cwrc#", "dc": "http://purl.org/dc/elements/1.1/",
-               "dcterms": "http://purl.org/dc/terms/", "foaf": "http://xmlns.com/foaf/0.1/", "geo":
-               "http://www.geonames.org/ontology#", "oa": "http://www.w3.org/ns/oa#", "schema":
-               "http://schema.org/", "xsd": "http://www.w3.org/2001/XMLSchema#", "fabio":
-               "https://purl.org/spar/fabio#", "bf": "http://www.openlinksw.com/schemas/bif#",
-               "cito": "https://sparontologies.github.io/cito/current/cito.html#", "org":
-               "http://www.w3.org/ns/org#" }, "id":
-               "https://leaf.bucknell.edu/sites/default/files/2023-07/suzette_ch121.xml?note_annotation_20231128165329519",
-               "type": "oa:Annotation", "dcterms:created": "2023-11-28T21:53:29.519Z",
-               "dcterms:modified": "2023-11-28T21:53:29.519Z", "dcterms:creator": { "@id": "1",
-               "@type": [ "cwrc:NaturalPerson", "schema:Person" ], "cwrc:hasName": "admin" },
-               "oa:motivatedBy": "oa:describing", "oa:hasTarget": { "@id":
-               "https://leaf.bucknell.edu/sites/default/files/2023-07/suzette_ch121.xml?note_annotation_20231128165329519#Target",
-               "@type": "oa:SpecificResource", "oa:hasSource": { "@id":
-               "https://leaf.bucknell.edu/sites/default/files/2023-07/suzette_ch121.xml", "@type":
-               "dctypes:Text", "dc:format": "text/xml" }, "oa:renderedVia": { "@id":
-               "https://leaf.bucknell.edu", "@type": "as:Application", "rdfs:label": "LEAF-Writer",
-               "schema:softwareVersion": "3.2.2" }, "oa:hasSelector": { "@id":
-               "https://leaf.bucknell.edu/sites/default/files/2023-07/suzette_ch121.xml?note_annotation_20231128165329519#Selector",
-               "@type": "oa:XPathSelector", "rdf:value": "TEI/text/body/div/div/p[17]/note" } },
-               "oa:hasBody": { "@type": "oa:TextualBody", "dc:format": "text/plain", "rdf:value":
-               "Bonne souche. Bonne\n famille." }, "as:generator": { "@id":
-               "https://leaf.bucknell.edu", "@type": "as:Application", "rdfs:label": "LEAF-Writer",
-               "schema:url": "https://leaf-writer.lincsproject.ca/", "schema:softwareVersion":
-               "3.2.2" } } </rdf:Description>
-            <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/"> { "@context": {
-               "dcterms:created": { "@type": "xsd:dateTime", "@id": "dcterms:created" },
-               "dcterms:issued": { "@type": "xsd:dateTime", "@id": "dcterms:issued" },
-               "oa:motivatedBy": { "@type": "oa:Motivation" }, "@language": "en", "rdf":
-               "http://www.w3.org/1999/02/22-rdf-syntax-ns#", "rdfs":
-               "http://www.w3.org/2000/01/rdf-schema#", "as":
-               "http://www.w3.org/ns/activitystreams#", "cwrc":
-               "http://sparql.cwrc.ca/ontologies/cwrc#", "dc": "http://purl.org/dc/elements/1.1/",
-               "dcterms": "http://purl.org/dc/terms/", "foaf": "http://xmlns.com/foaf/0.1/", "geo":
-               "http://www.geonames.org/ontology#", "oa": "http://www.w3.org/ns/oa#", "schema":
-               "http://schema.org/", "xsd": "http://www.w3.org/2001/XMLSchema#", "fabio":
-               "https://purl.org/spar/fabio#", "bf": "http://www.openlinksw.com/schemas/bif#",
-               "cito": "https://sparontologies.github.io/cito/current/cito.html#", "org":
-               "http://www.w3.org/ns/org#" }, "id":
-               "https://leaf.bucknell.edu/sites/default/files/2023-07/suzette_ch121.xml?note_annotation_20231128165329520",
-               "type": "oa:Annotation", "dcterms:created": "2023-11-28T21:53:29.520Z",
-               "dcterms:modified": "2023-11-28T21:53:29.520Z", "dcterms:creator": { "@id": "1",
-               "@type": [ "cwrc:NaturalPerson", "schema:Person" ], "cwrc:hasName": "admin" },
-               "oa:motivatedBy": "oa:describing", "oa:hasTarget": { "@id":
-               "https://leaf.bucknell.edu/sites/default/files/2023-07/suzette_ch121.xml?note_annotation_20231128165329520#Target",
-               "@type": "oa:SpecificResource", "oa:hasSource": { "@id":
-               "https://leaf.bucknell.edu/sites/default/files/2023-07/suzette_ch121.xml", "@type":
-               "dctypes:Text", "dc:format": "text/xml" }, "oa:renderedVia": { "@id":
-               "https://leaf.bucknell.edu", "@type": "as:Application", "rdfs:label": "LEAF-Writer",
-               "schema:softwareVersion": "3.2.2" }, "oa:hasSelector": { "@id":
-               "https://leaf.bucknell.edu/sites/default/files/2023-07/suzette_ch121.xml?note_annotation_20231128165329520#Selector",
-               "@type": "oa:XPathSelector", "rdf:value": "TEI/text/body/div/div/p[19]/note" } },
-               "oa:hasBody": { "@type": "oa:TextualBody", "dc:format": "text/plain", "rdf:value":
-               "Fier comme Artaban. Très fier." }, "as:generator": { "@id":
-               "https://leaf.bucknell.edu", "@type": "as:Application", "rdfs:label": "LEAF-Writer",
-               "schema:url": "https://leaf-writer.lincsproject.ca/", "schema:softwareVersion":
-               "3.2.2" } } </rdf:Description>
-         </rdf:RDF></xenoData>
       <profileDesc>
          <langUsage>
             <language ident="fr">French</language>
@@ -160,14 +85,13 @@
                facs="https://raw.githubusercontent.com/BucknellDSC/suzette/master/images/page_images/Suzette_424.jpg"/>
             <head>121. — Nous entrerons dans la carrière... </head>
             <div type="récit">
-               <p>Friande de nouvelles, Ludivine
-                  guettait sur la route au moment où Jacques revenait des champs pour le <fw type="footer">(1) La presse
-                     désigne ici la liberté d'imprimer ce que l'on veut.</fw>
+               <p>Friande de nouvelles, Ludivine guettait sur la route au moment où Jacques revenait
+                  des champs pour le <fw type="footer">(1) La presse désigne ici la liberté
+                     d'imprimer ce que l'on veut.</fw>
                   <pb type="page" n="425"
                      facs="https://raw.githubusercontent.com/BucknellDSC/suzette/master/images/page_images/Suzette_425.jpg"/>
                   <fw>NOUS ENTRERONS DANS LA CARRIERE... 425</fw> dîner de midi. Elle le suivit dans
-                  la maison, avec le père Benoît qui
-                  flânait aussi de ce côté.</p>
+                  la maison, avec le père Benoît qui flânait aussi de ce côté.</p>
                <p>La langue leur démangeait visiblement.</p>
                <p>— Tiens ! dit-elle, on n'est pas encore de retour de la ville ?</p>
                <p>— Non.</p>
@@ -189,10 +113,10 @@
                   On le rachetait, on le remplaçait. Il ne manquait jamais de pauvres diables qui,
                   pour quelques centaines de francs, partaient, se faisaient tuer à votre place...
                   C'était commode, ça, n'est-ce pas ?</p>
-               <p>— Oui, répondit ironiquement Jacques, c'était commode ! ceux-là surtout qui ne possédaient pas
-                  un pouce de la terre française étaient chargés de la défendre !... </p>
-               <p>— Ah ! ah ! interrompit Ludivine, qui avait mis le nez à la fenêtre, voilà ton père et ta
-                  soeur.</p>
+               <p>— Oui, répondit ironiquement Jacques, c'était commode ! ceux-là surtout qui ne
+                  possédaient pas un pouce de la terre française étaient chargés de la défendre !... </p>
+               <p>— Ah ! ah ! interrompit Ludivine, qui avait mis le nez à la fenêtre, voilà ton
+                  père et ta soeur.</p>
                <p>On alla au-devant d'eux sur la porte.</p>
                <p>— Ils semblent contents du député, ajouta Ludivine.</p>
                <fw type="footer"><fw type="sig">24.</fw></fw>
@@ -200,12 +124,13 @@
                   facs="https://raw.githubusercontent.com/BucknellDSC/suzette/master/images/page_images/Suzette_426.jpg"/>
                <fw>426 SUZETTE.</fw>
                <p>— Vous êtes allés chez le député, père ? demanda Jacques, un peu inquiet.</p>
-               <p>— Oui, mon fils, sans te le dire. Suzette, que j'avais emmenée pour me soutenir dans mon discours,
-                  n'a su mon projet qu'un peu tard. Et comme tu t'es montré plus brave, plus
-                  patriote que moi, tu peux rester brave, tu as gagné la partie ! Ecoutez ceci,
-                  enfants ! ajouta-t-il en s'adressant à François et à Charlot qui entraient.</p>
-               <p>Avec feu il répéta les nobles paroles du député ; Suzette, encore toute vibrante, aidait sa mémoire
-                  quand elle faiblissait.</p>
+               <p>— Oui, mon fils, sans te le dire. Suzette, que j'avais emmenée pour me soutenir
+                  dans mon discours, n'a su mon projet qu'un peu tard. Et comme tu t'es montré plus
+                  brave, plus patriote que moi, tu peux rester brave, tu as gagné la partie !
+                  Ecoutez ceci, enfants ! ajouta-t-il en s'adressant à François et à Charlot qui
+                  entraient.</p>
+               <p>Avec feu il répéta les nobles paroles du député ; Suzette, encore toute vibrante,
+                  aidait sa mémoire quand elle faiblissait.</p>
                <p>Les enfants étaient de bonne souche*<note type="annotation">Bonne souche. Bonne
                      famille.</note>, ils furent très émus. Charlot dit les vers sublimes. </p>
                <lg>
@@ -214,11 +139,11 @@
                   <l>Nous y trouverons leur poussière </l>
                   <l>Et la trace de leurs vertus ! »</l>
                </lg>
-               <p>Alors le père Benoît, qui n'en
-                  pouvait croire ses oreilles, fit sortir sa fille Ludivine tout ébaubie. Et, sur le seuil, secouant sa
-                  pipe :</p>
-               <p>— Non ! cria-t-il, ce n'est pas d'aujourd'hui qu'on sait que les Dumay sont de très mauvaises têtes ! Là-dessus il
-                  claqua la porte et s'en alla fier comme Artaban*<note type="annotation">Fier comme Artaban. Très fier.</note>.</p>
+               <p>Alors le père Benoît, qui n'en pouvait croire ses oreilles, fit sortir sa fille
+                  Ludivine tout ébaubie. Et, sur le seuil, secouant sa pipe :</p>
+               <p>— Non ! cria-t-il, ce n'est pas d'aujourd'hui qu'on sait que les Dumay sont de
+                  très mauvaises têtes ! Là-dessus il claqua la porte et s'en alla fier comme
+                     Artaban*<note type="annotation">Fier comme Artaban. Très fier.</note>.</p>
                <p>Car le brave homme, en qui n'entraient ni raison, ni vérité, ni beaux sentiments,
                   se regardait, lui, comme une très bonne tête.</p>
             </div>
@@ -226,17 +151,16 @@
                <head>Questionnaire.</head>
                <list>
                   <item>— Quelles personnes vinrent trouver Jacques à la maison ? </item>
-                  <item>— Que lui demanda Ludivine
-                     ?</item>
+                  <item>— Que lui demanda Ludivine ?</item>
                   <item>— Que se proposait le père Benoît à l'égard de son jeune voisin ? </item>
                   <item>— Que lui raconta-t-il des procédés dont certains poltrons usaient de son
                      temps pour ne point aller à l'armée ? </item>
                   <item>— Pourquoi ces moyens ne seraient-ils d'aucune utilité aujourd'hui ? </item>
                   <item>— En quoi consistait le remplacement militaire supprimé en 1872 ? </item>
-                  <item>— Quelle observation fit Jacques sur l'injustice du système d'exemption ?</item>
-                  <item>— M. Dumay, étant de
-                     retour, répondit à Jacques sur
-                     le résultat de sa démarche ; reproduisez son récit. </item>
+                  <item>— Quelle observation fit Jacques sur l'injustice du système d'exemption
+                     ?</item>
+                  <item>— M. Dumay, étant de retour, répondit à Jacques sur le résultat de sa
+                     démarche ; reproduisez son récit. </item>
                   <item>— Que répeta-t-il avec feu ? </item>
                   <item>— Que dit Charlot ? </item>
                   <item>— Que signifient les mots carrière, ainés ? </item>
@@ -262,8 +186,8 @@
                      <p>(Les élèves trouveront elles-mêmes la réponse ; rien à cet égard ne doit
                         leur être suggéré ; d'ailleurs la leçon de lecture donne tous les éléments
                         de ce qu'on leur demande. — Voir encore <title>COURS DE COMPOSITON FRANÇAISE
-                           (Degré élémentaire et moyen), par E.
-                              LAPORTE</title>, Partie du maître, page 325.)</p>
+                           (Degré élémentaire et moyen), par E. LAPORTE</title>, Partie du maître,
+                        page 325.)</p>
                   </div>
                </div>
                <div type="français">

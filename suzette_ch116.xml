@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/BucknellDSC/suzette/master/CSS/suzette_cwrc.css"?>
 <?xml-model href="https://raw.githubusercontent.com/BucknellDSC/suzette/refs/heads/master/out/suzette.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
 	<teiHeader>
 		<fileDesc>
 			<titleStmt>
@@ -71,151 +71,6 @@
 				</biblStruct>
 			</sourceDesc>
 		</fileDesc>
-		<xenoData><rdf:RDF xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-				xmlns:as="http://www.w3.org/ns/activitystreams#"
-				xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#"
-				xmlns:dc="http://purl.org/dc/elements/1.1/"
-				xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/"
-				xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#"
-				xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
-				xmlns:fabio="https://purl.org/spar/fabio#"
-				xmlns:bf="http://www.openlinksw.com/schemas/bif#"
-				xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#"
-				xmlns:org="http://www.w3.org/ns/org#">
-				<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/"> { "@context": {
-					"dcterms:created": { "@type": "xsd:dateTime", "@id": "dcterms:created" },
-					"dcterms:issued": { "@type": "xsd:dateTime", "@id": "dcterms:issued" },
-					"oa:motivatedBy": { "@type": "oa:Motivation" }, "@language": "en", "rdf":
-					"http://www.w3.org/1999/02/22-rdf-syntax-ns#", "rdfs":
-					"http://www.w3.org/2000/01/rdf-schema#", "as":
-					"http://www.w3.org/ns/activitystreams#", "cwrc":
-					"http://sparql.cwrc.ca/ontologies/cwrc#", "dc":
-					"http://purl.org/dc/elements/1.1/", "dcterms": "http://purl.org/dc/terms/",
-					"foaf": "http://xmlns.com/foaf/0.1/", "geo":
-					"http://www.geonames.org/ontology#", "oa": "http://www.w3.org/ns/oa#", "schema":
-					"http://schema.org/", "xsd": "http://www.w3.org/2001/XMLSchema#", "fabio":
-					"https://purl.org/spar/fabio#", "bf": "http://www.openlinksw.com/schemas/bif#",
-					"cito": "https://sparontologies.github.io/cito/current/cito.html#", "org":
-					"http://www.w3.org/ns/org#" }, "id":
-					"https://leaf.bucknell.edu/sites/default/files/2023-07/suzette_ch116.xml?note_annotation_20240104181516319",
-					"type": "oa:Annotation", "dcterms:created": "2024-01-04T23:15:16.319Z",
-					"dcterms:modified": "2024-01-04T23:15:16.319Z", "dcterms:creator": { "@id": "1",
-					"@type": [ "cwrc:NaturalPerson", "schema:Person" ], "cwrc:hasName": "admin" },
-					"oa:motivatedBy": "oa:describing", "oa:hasTarget": { "@id":
-					"https://leaf.bucknell.edu/sites/default/files/2023-07/suzette_ch116.xml?note_annotation_20240104181516319#Target",
-					"@type": "oa:SpecificResource", "oa:hasSource": { "@id":
-					"https://leaf.bucknell.edu/sites/default/files/2023-07/suzette_ch116.xml",
-					"@type": "dctypes:Text", "dc:format": "text/xml" }, "oa:renderedVia": { "@id":
-					"https://leaf.bucknell.edu", "@type": "as:Application", "rdfs:label":
-					"LEAF-Writer", "schema:softwareVersion": "3.4.0" }, "oa:hasSelector": { "@id":
-					"https://leaf.bucknell.edu/sites/default/files/2023-07/suzette_ch116.xml?note_annotation_20240104181516319#Selector",
-					"@type": "oa:XPathSelector", "rdf:value": "TEI/text/body/div/div/p/note" } },
-					"oa:hasBody": { "@type": "oa:TextualBody", "dc:format": "text/plain",
-					"rdf:value": "Aggravation.\n Augmentation." }, "as:generator": { "@id":
-					"https://leaf.bucknell.edu", "@type": "as:Application", "rdfs:label":
-					"LEAF-Writer", "schema:url": "https://leaf-writer.lincsproject.ca/",
-					"schema:softwareVersion": "3.4.0" } } </rdf:Description>
-				<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/"> { "@context": {
-					"dcterms:created": { "@type": "xsd:dateTime", "@id": "dcterms:created" },
-					"dcterms:issued": { "@type": "xsd:dateTime", "@id": "dcterms:issued" },
-					"oa:motivatedBy": { "@type": "oa:Motivation" }, "@language": "en", "rdf":
-					"http://www.w3.org/1999/02/22-rdf-syntax-ns#", "rdfs":
-					"http://www.w3.org/2000/01/rdf-schema#", "as":
-					"http://www.w3.org/ns/activitystreams#", "cwrc":
-					"http://sparql.cwrc.ca/ontologies/cwrc#", "dc":
-					"http://purl.org/dc/elements/1.1/", "dcterms": "http://purl.org/dc/terms/",
-					"foaf": "http://xmlns.com/foaf/0.1/", "geo":
-					"http://www.geonames.org/ontology#", "oa": "http://www.w3.org/ns/oa#", "schema":
-					"http://schema.org/", "xsd": "http://www.w3.org/2001/XMLSchema#", "fabio":
-					"https://purl.org/spar/fabio#", "bf": "http://www.openlinksw.com/schemas/bif#",
-					"cito": "https://sparontologies.github.io/cito/current/cito.html#", "org":
-					"http://www.w3.org/ns/org#" }, "id":
-					"https://leaf.bucknell.edu/sites/default/files/2023-07/suzette_ch116.xml?note_annotation_20240104181516320",
-					"type": "oa:Annotation", "dcterms:created": "2024-01-04T23:15:16.320Z",
-					"dcterms:modified": "2024-01-04T23:15:16.320Z", "dcterms:creator": { "@id": "1",
-					"@type": [ "cwrc:NaturalPerson", "schema:Person" ], "cwrc:hasName": "admin" },
-					"oa:motivatedBy": "oa:describing", "oa:hasTarget": { "@id":
-					"https://leaf.bucknell.edu/sites/default/files/2023-07/suzette_ch116.xml?note_annotation_20240104181516320#Target",
-					"@type": "oa:SpecificResource", "oa:hasSource": { "@id":
-					"https://leaf.bucknell.edu/sites/default/files/2023-07/suzette_ch116.xml",
-					"@type": "dctypes:Text", "dc:format": "text/xml" }, "oa:renderedVia": { "@id":
-					"https://leaf.bucknell.edu", "@type": "as:Application", "rdfs:label":
-					"LEAF-Writer", "schema:softwareVersion": "3.4.0" }, "oa:hasSelector": { "@id":
-					"https://leaf.bucknell.edu/sites/default/files/2023-07/suzette_ch116.xml?note_annotation_20240104181516320#Selector",
-					"@type": "oa:XPathSelector", "rdf:value": "TEI/text/body/div/div/p/note[2]" } },
-					"oa:hasBody": { "@type": "oa:TextualBody", "dc:format": "text/plain",
-					"rdf:value": "Quintupler. Rendre cinq fois plus grand." }, "as:generator": {
-					"@id": "https://leaf.bucknell.edu", "@type": "as:Application", "rdfs:label":
-					"LEAF-Writer", "schema:url": "https://leaf-writer.lincsproject.ca/",
-					"schema:softwareVersion": "3.4.0" } } </rdf:Description>
-				<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/"> { "@context": {
-					"dcterms:created": { "@type": "xsd:dateTime", "@id": "dcterms:created" },
-					"dcterms:issued": { "@type": "xsd:dateTime", "@id": "dcterms:issued" },
-					"oa:motivatedBy": { "@type": "oa:Motivation" }, "@language": "en", "rdf":
-					"http://www.w3.org/1999/02/22-rdf-syntax-ns#", "rdfs":
-					"http://www.w3.org/2000/01/rdf-schema#", "as":
-					"http://www.w3.org/ns/activitystreams#", "cwrc":
-					"http://sparql.cwrc.ca/ontologies/cwrc#", "dc":
-					"http://purl.org/dc/elements/1.1/", "dcterms": "http://purl.org/dc/terms/",
-					"foaf": "http://xmlns.com/foaf/0.1/", "geo":
-					"http://www.geonames.org/ontology#", "oa": "http://www.w3.org/ns/oa#", "schema":
-					"http://schema.org/", "xsd": "http://www.w3.org/2001/XMLSchema#", "fabio":
-					"https://purl.org/spar/fabio#", "bf": "http://www.openlinksw.com/schemas/bif#",
-					"cito": "https://sparontologies.github.io/cito/current/cito.html#", "org":
-					"http://www.w3.org/ns/org#" }, "id":
-					"https://leaf.bucknell.edu/sites/default/files/2023-07/suzette_ch116.xml?note_annotation_20240104181516321",
-					"type": "oa:Annotation", "dcterms:created": "2024-01-04T23:15:16.321Z",
-					"dcterms:modified": "2024-01-04T23:15:16.321Z", "dcterms:creator": { "@id": "1",
-					"@type": [ "cwrc:NaturalPerson", "schema:Person" ], "cwrc:hasName": "admin" },
-					"oa:motivatedBy": "oa:describing", "oa:hasTarget": { "@id":
-					"https://leaf.bucknell.edu/sites/default/files/2023-07/suzette_ch116.xml?note_annotation_20240104181516321#Target",
-					"@type": "oa:SpecificResource", "oa:hasSource": { "@id":
-					"https://leaf.bucknell.edu/sites/default/files/2023-07/suzette_ch116.xml",
-					"@type": "dctypes:Text", "dc:format": "text/xml" }, "oa:renderedVia": { "@id":
-					"https://leaf.bucknell.edu", "@type": "as:Application", "rdfs:label":
-					"LEAF-Writer", "schema:softwareVersion": "3.4.0" }, "oa:hasSelector": { "@id":
-					"https://leaf.bucknell.edu/sites/default/files/2023-07/suzette_ch116.xml?note_annotation_20240104181516321#Selector",
-					"@type": "oa:XPathSelector", "rdf:value":
-					"TEI/text/body/div/div[3]/div[2]/div[2]/p/note" } }, "oa:hasBody": { "@type":
-					"cwrc:Note", "dc:format": "text/plain", "rdf:value": "(FIGUIER, Les\n
-					insectes.)" }, "as:generator": { "@id": "https://leaf.bucknell.edu", "@type":
-					"as:Application", "rdfs:label": "LEAF-Writer", "schema:url":
-					"https://leaf-writer.lincsproject.ca/", "schema:softwareVersion": "3.4.0" } } </rdf:Description>
-				<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/"> { "@context": {
-					"dcterms:created": { "@type": "xsd:dateTime", "@id": "dcterms:created" },
-					"dcterms:issued": { "@type": "xsd:dateTime", "@id": "dcterms:issued" },
-					"oa:motivatedBy": { "@type": "oa:Motivation" }, "@language": "en", "rdf":
-					"http://www.w3.org/1999/02/22-rdf-syntax-ns#", "rdfs":
-					"http://www.w3.org/2000/01/rdf-schema#", "as":
-					"http://www.w3.org/ns/activitystreams#", "cwrc":
-					"http://sparql.cwrc.ca/ontologies/cwrc#", "dc":
-					"http://purl.org/dc/elements/1.1/", "dcterms": "http://purl.org/dc/terms/",
-					"foaf": "http://xmlns.com/foaf/0.1/", "geo":
-					"http://www.geonames.org/ontology#", "oa": "http://www.w3.org/ns/oa#", "schema":
-					"http://schema.org/", "xsd": "http://www.w3.org/2001/XMLSchema#", "fabio":
-					"https://purl.org/spar/fabio#", "bf": "http://www.openlinksw.com/schemas/bif#",
-					"cito": "https://sparontologies.github.io/cito/current/cito.html#", "org":
-					"http://www.w3.org/ns/org#" }, "id":
-					"https://leaf.bucknell.edu/sites/default/files/2023-07/suzette_ch116.xml?place_annotation_20240104181542971",
-					"type": "oa:Annotation", "dcterms:created": "2024-01-04T23:15:42.971Z",
-					"dcterms:creator": { "@id": "1", "@type": [ "cwrc:NaturalPerson",
-					"schema:Person" ], "cwrc:hasName": "admin" }, "oa:motivatedBy":
-					"oa:identifying", "oa:hasTarget": { "@id":
-					"https://leaf.bucknell.edu/sites/default/files/2023-07/suzette_ch116.xml?place_annotation_20240104181542971#Target",
-					"@type": "oa:SpecificResource", "oa:hasSource": { "@id":
-					"https://leaf.bucknell.edu/sites/default/files/2023-07/suzette_ch116.xml",
-					"@type": "dctypes:Text", "dc:format": "text/xml" }, "oa:renderedVia": { "@id":
-					"https://leaf.bucknell.edu", "@type": "as:Application", "rdfs:label":
-					"LEAF-Writer", "schema:softwareVersion": "3.4.0" }, "oa:hasSelector": { "@id":
-					"https://leaf.bucknell.edu/sites/default/files/2023-07/suzette_ch116.xml?place_annotation_20240104181542971#Selector",
-					"@type": "oa:XPathSelector", "rdf:value": "TEI/text/body/div/div/p[6]/placeName"
-					} }, "oa:hasBody": { "@type": "cwrc:RealPlace", "@id":
-					"http://www.wikidata.org/entity/Q182744", "dc:format": "text/plain" },
-					"as:generator": { "@id": "https://leaf.bucknell.edu", "@type": "as:Application",
-					"rdfs:label": "LEAF-Writer", "schema:url":
-					"https://leaf-writer.lincsproject.ca/", "schema:softwareVersion": "3.4.0" } }
-				</rdf:Description>
-			</rdf:RDF></xenoData>
 		<profileDesc>
 			<langUsage>
 				<language ident="fr">French</language>
@@ -231,8 +86,8 @@
 				<head> 116. — Joli succès. </head>
 				<div type="récit">
 					<p> Ce que les <objectName type="produit" subtype="animal" key="abeille"
-							>abeilles</objectName> ne savent pas et que savait Suzette, c'est qu'une <objectName
-							type="ustensile" key="ruche">ruche</objectName> dont on
+							>abeilles</objectName> ne savent pas et que savait Suzette, c'est qu'une
+							<objectName type="ustensile" key="ruche">ruche</objectName> dont on
 						réussit à doubler la population d'<objectName type="produit"
 							subtype="animal" key="abeille">ouvrières</objectName> rapporte à elle
 						seule autant de <objectName type="produit" subtype="animal" key="miel"
@@ -247,13 +102,12 @@
 					<p> Telle est la méthode <hi rend="italic">intensive</hi> qui, scientifiquement
 						appliquée à toutes les productions, fournirait, en France, l'aisance à une
 						population au moins décuple de la nôtre. </p>
-					<p>
-						Suzette soumit a
-						l'expérience du doublement des <objectName type="produit" subtype="animal"
-							key="abeille">abeilles ouvrières</objectName> deux de ses <objectName
-							type="ustensile" key="ruche">ruches</objectName>. Et ces deux donnèrent,
-						à elles seules, autant qu'eussent produit les six, laissées à elles-mêmes :
-						douze kilogrammes chacune, au lieu de trois ou quatre. </p>
+					<p> Suzette soumit a l'expérience du doublement des <objectName type="produit"
+							subtype="animal" key="abeille">abeilles ouvrières</objectName> deux de
+						ses <objectName type="ustensile" key="ruche">ruches</objectName>. Et ces
+						deux donnèrent, à elles seules, autant qu'eussent produit les six,
+						laissées à elles-mêmes : douze kilogrammes chacune, au lieu de trois ou
+						quatre. </p>
 					<p> Tout compte fait, le <objectName type="ustensile" key="ruche"
 							>rucher</objectName>, dès cette première année d'essai, procura
 						soixante-dix francs. Il en promettait le double pour l'année prochaine, par
@@ -280,8 +134,8 @@
 							population des <objectName type="ustensile" key="ruche"
 								>ruches</objectName> ?</item>
 						<item>— Quel serait pour la France le profit de cette méthode ?</item>
-						<item>— Quel béné<cb/>fice tira Suzette de l'application de la méthode intensive
-							?</item>
+						<item>— Quel béné<cb/>fice tira Suzette de l'application de
+							la méthode intensive ?</item>
 						<item>— Que disait-elle de cette nouvelle ressource ?</item>
 						<item>— Pourquoi était-elle allée plus souvent à Saint-Quentin ?</item>
 					</list>
@@ -386,7 +240,7 @@
 								ventre de l'abeille. Cette matière sert à la confection des alvéoles
 								où les insectes de la ruche déposent le miel et les œufs que pond
 								seule la reine. <note type="reference">(FIGUIER, <title>Les
-								insectes</title>.)</note></p>
+										insectes</title>.)</note></p>
 							<p>Chaque alvéole constitue un petit godet à six pans, fermé d'un côté,
 								et la masse des alvéoles réunis en double couche constitue les
 								gâteaux.</p>

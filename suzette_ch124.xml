@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/BucknellDSC/suzette/master/CSS/suzette_cwrc.css"?>
 <?xml-model href="https://raw.githubusercontent.com/BucknellDSC/suzette/refs/heads/master/out/suzette.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -71,49 +71,6 @@
             </biblStruct>
          </sourceDesc>
       </fileDesc>
-      <xenoData><rdf:RDF xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-            xmlns:as="http://www.w3.org/ns/activitystreams#"
-            xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#"
-            xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/"
-            xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#"
-            xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/"
-            xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#"
-            xmlns:bf="http://www.openlinksw.com/schemas/bif#"
-            xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#"
-            xmlns:org="http://www.w3.org/ns/org#">
-            <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/"> { "@context": {
-               "dcterms:created": { "@type": "xsd:dateTime", "@id": "dcterms:created" },
-               "dcterms:issued": { "@type": "xsd:dateTime", "@id": "dcterms:issued" },
-               "oa:motivatedBy": { "@type": "oa:Motivation" }, "@language": "en", "rdf":
-               "http://www.w3.org/1999/02/22-rdf-syntax-ns#", "rdfs":
-               "http://www.w3.org/2000/01/rdf-schema#", "as":
-               "http://www.w3.org/ns/activitystreams#", "cwrc":
-               "http://sparql.cwrc.ca/ontologies/cwrc#", "dc": "http://purl.org/dc/elements/1.1/",
-               "dcterms": "http://purl.org/dc/terms/", "foaf": "http://xmlns.com/foaf/0.1/", "geo":
-               "http://www.geonames.org/ontology#", "oa": "http://www.w3.org/ns/oa#", "schema":
-               "http://schema.org/", "xsd": "http://www.w3.org/2001/XMLSchema#", "fabio":
-               "https://purl.org/spar/fabio#", "bf": "http://www.openlinksw.com/schemas/bif#",
-               "cito": "https://sparontologies.github.io/cito/current/cito.html#", "org":
-               "http://www.w3.org/ns/org#" }, "id":
-               "https://leaf.bucknell.edu/sites/default/files/2023-07/suzette_ch124.xml?note_annotation_20231017124421911",
-               "type": "oa:Annotation", "dcterms:created": "2023-10-17T16:44:21.911Z",
-               "dcterms:modified": "2023-10-17T16:44:21.911Z", "dcterms:creator": { "@id": "5",
-               "@type": [ "cwrc:NaturalPerson", "schema:Person" ], "cwrc:hasName": "John Westbrook"
-               }, "oa:motivatedBy": "oa:describing", "oa:hasTarget": { "@id":
-               "https://leaf.bucknell.edu/sites/default/files/2023-07/suzette_ch124.xml?note_annotation_20231017124421911#Target",
-               "@type": "oa:SpecificResource", "oa:hasSource": { "@id":
-               "https://leaf.bucknell.edu/sites/default/files/2023-07/suzette_ch124.xml", "@type":
-               "dctypes:Text", "dc:format": "text/xml" }, "oa:renderedVia": { "@id":
-               "https://leaf.bucknell.edu", "@type": "as:Application", "rdfs:label": "LEAF-Writer",
-               "schema:softwareVersion": "3.2.2" }, "oa:hasSelector": { "@id":
-               "https://leaf.bucknell.edu/sites/default/files/2023-07/suzette_ch124.xml?note_annotation_20231017124421911#Selector",
-               "@type": "oa:XPathSelector", "rdf:value": "TEI/text/body/div/div/p[15]/note" } },
-               "oa:hasBody": { "@type": "oa:TextualBody", "dc:format": "text/plain", "rdf:value":
-               "Sep. La partie du corps de la charrue à\n laquelle s'emmanche ou s'ajuste le soc."
-               }, "as:generator": { "@id": "https://leaf.bucknell.edu", "@type": "as:Application",
-               "rdfs:label": "LEAF-Writer", "schema:url": "https://leaf-writer.lincsproject.ca/",
-               "schema:softwareVersion": "3.2.2" } } </rdf:Description>
-         </rdf:RDF></xenoData>
       <profileDesc>
          <langUsage>
             <language ident="fr">French</language>
@@ -129,15 +86,14 @@
             <head>124. — Pauvre remplaçant. </head>
             <div type="récit">
                <p>Le soleil marqua midi, puis, dans un coin de la cuisine, l'horloge, qui était en
-                  retard de huit minutes, sonna douze coups et les resonna ; Charlot revint de l'école ; le dîner, cuit plus que de
-                  raison, dut être retiré du feu : M. François ne rentrait pas.</p>
-               <p>— Diable de François ! murmurait
-                     M. Dumay impatient, en
-                  marchant de long en large, diable d'enfant ! il va me mettre en retard pour les
-                  semailles ; il devrait être ici depuis une heure !</p>
-               <p>A tout instant Suzette, un peu
-                  inquiète, allait sur la porte d'où l'on voyait un bon ruban de route. Pas de
-                     François.</p>
+                  retard de huit minutes, sonna douze coups et les resonna ; Charlot revint de
+                  l'école ; le dîner, cuit plus que de raison, dut être retiré du feu : M. François
+                  ne rentrait pas.</p>
+               <p>— Diable de François ! murmurait M. Dumay impatient, en marchant de long en large,
+                  diable d'enfant ! il va me mettre en retard pour les semailles ; il devrait être
+                  ici depuis une heure !</p>
+               <p>A tout instant Suzette, un peu inquiète, allait sur la porte d'où l'on voyait un
+                  bon ruban de route. Pas de François.</p>
                <p>Midi et demi !</p>
                <pb type="page" n="435"
                   facs="https://raw.githubusercontent.com/BucknellDSC/suzette/master/images/page_images/Suzette_435.jpg"/>
@@ -145,10 +101,10 @@
                <p>— Le plus court, dit le père, en sortant, est d'aller voir ce qu'il en
                   retourne.</p>
                <p>Bon ! tout n'allait pas au pire, car à quelques centaines de pas du village, un
-                  coup de vent apporta une chanson familière à M. François dans ses bons moments, quand ses petites
-                  affaires marchaient à son gré. </p>
-               <p>— Ca va, mais plus lentement que je n'avais cru, se dit M. Dumay ; il n'a pas voulu rentrer avant la tâche
-                  faite ; c'est de bon amour-propre.</p>
+                  coup de vent apporta une chanson familière à M. François dans ses bons moments,
+                  quand ses petites affaires marchaient à son gré. </p>
+               <p>— Ca va, mais plus lentement que je n'avais cru, se dit M. Dumay ; il n'a pas
+                  voulu rentrer avant la tâche faite ; c'est de bon amour-propre.</p>
                <p>Pressant le pas, il fut bientôt au bout du chemin creux, et là, s'arrêta
                   consterné. A peine si, depuis son départ, deux autres sillons, et encore quels
                   sillons ! s'étaient ajoutés au travail. La Rousse et le Pommelé dételés,
@@ -177,8 +133,7 @@
                <list>
                   <item>— Que se passa-t-il quand midi fut sonné ? </item>
                   <item>— Que mur murait M. Dumay ? </item>
-                  <item>— Où allait Suzette
-                     inquiète ? </item>
+                  <item>— Où allait Suzette inquiète ? </item>
                   <item>— Quelle détermination prit le père et qu'entendit-il à quelque distance du
                      village ? </item>
                   <item>— Quelle réflexion fit-il ? </item>
